@@ -1,0 +1,153 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:44 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-REPORT/control/EBS_EXPDETAIL_LINE.ctl
+Data File:      /dw-data/EBS-REPORT/20190116/csv/20190116_expdetail_2018-12.csv
+  Bad File:     /dw-data/EBS-REPORT/20190116/bad/EBS_EXPDETAIL_LINE_2018-12.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_EXPDETAIL_LINE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+ITEM_NAME                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_NUM                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPT_PTD_0602800001                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800001)"
+DEPT_PTD_0602800002                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800002)"
+DEPT_PTD_0602800003                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800003)"
+DEPT_PTD_0602800004                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800004)"
+DEPT_PTD_0602800005                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800005)"
+DEPT_PTD_0602800006                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800006)"
+DEPT_PTD_0602800007                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800007)"
+DEPT_PTD_0602800008                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800008)"
+DEPT_PTD_0602800009                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800009)"
+DEPT_PTD_0602800010                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800010)"
+DEPT_PTD_0602800011                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800011)"
+DEPT_PTD_0602800012                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800012)"
+DEPT_PTD_0602800013                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0602800013)"
+DEPT_PTD_9999999                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_9999999)"
+DEPT_PTD_0                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "to_number(:DEPT_PTD_0)"
+DEPT_YTD_0602800001                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800002                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800003                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800004                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800005                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800006                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800007                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800008                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800009                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800010                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800011                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800012                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0602800013                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_9999999                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+DEPT_YTD_0                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "10"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate"
+PERIOD_DATE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "'2018-12'"
+DATA_DATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 27
+
+Table EBS_EXPDETAIL_LINE:
+  372 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 250776 bytes(27 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           372
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Jan 16 15:37:44 2019
+Run ended on Wed Jan 16 15:37:44 2019
+
+Elapsed time was:     00:00:00.09
+CPU time was:         00:00:00.02

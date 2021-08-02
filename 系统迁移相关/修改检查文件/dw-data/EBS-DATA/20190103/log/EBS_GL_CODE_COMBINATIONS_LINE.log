@@ -1,0 +1,165 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 18:25:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_GL_CODE_COMBINATIONS_LINE.ctl
+Data File:      /dw-data/EBS-DATA/20190103/csv/20190103_gl_code_combinations_201812.csv
+  Bad File:     /dw-data/EBS-DATA/20190103/bad/EBS_GL_CODE_COMBINATIONS_LINE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_GL_CODE_COMBINATIONS_LINE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *   ,  O(") CHARACTER            
+CODE_COMBINATION_ID                  NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_DATE                     NEXT     *   ,  O(") DATE DD-MM-YY        
+LAST_UPDATED_BY                      NEXT     *   ,  O(") CHARACTER            
+CHART_OF_ACCOUNTS_ID                 NEXT     *   ,  O(") CHARACTER            
+DETAIL_POSTING_ALLOWED_FLAG          NEXT     *   ,  O(") CHARACTER            
+DETAIL_BUDGETING_ALLOWED_FLAG        NEXT     *   ,  O(") CHARACTER            
+ACCOUNT_TYPE                         NEXT     *   ,  O(") CHARACTER            
+ENABLED_FLAG                         NEXT     *   ,  O(") CHARACTER            
+SUMMARY_FLAG                         NEXT     *   ,  O(") CHARACTER            
+SEGMENT1                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT2                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT3                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT4                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT5                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT6                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT7                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT8                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT9                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT10                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT11                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT12                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT13                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT14                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT15                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT16                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT17                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT18                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT19                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT20                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT21                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT22                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT23                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT24                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT25                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT26                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT27                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT28                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT29                            NEXT     *   ,  O(") CHARACTER            
+SEGMENT30                            NEXT     *   ,  O(") CHARACTER            
+DESCRIPTION                          NEXT     *   ,  O(") CHARACTER            
+TEMPLATE_ID                          NEXT     *   ,  O(") CHARACTER            
+ALLOCATION_CREATE_FLAG               NEXT     *   ,  O(") CHARACTER            
+START_DATE_ACTIVE                    NEXT     *   ,  O(") DATE DD-MM-YY        
+END_DATE_ACTIVE                      NEXT     *   ,  O(") DATE DD-MM-YY        
+ATTRIBUTE1                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE2                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE3                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE4                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE5                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE6                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE7                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE8                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE9                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE10                          NEXT     *   ,  O(") CHARACTER            
+CONTEXT                              NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE1                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE2                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE3                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE4                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE5                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE6                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE7                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE8                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE9                   NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE10                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE11                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE12                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE13                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE14                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE15                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE16                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE17                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE18                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE19                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE20                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE21                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE22                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE23                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE24                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE25                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE26                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE27                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE28                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE29                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE30                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE31                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE32                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE33                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE34                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE35                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE36                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE37                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE38                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE39                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE40                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE41                  NEXT     *   ,  O(") CHARACTER            
+SEGMENT_ATTRIBUTE42                  NEXT     *   ,  O(") CHARACTER            
+REFERENCE1                           NEXT     *   ,  O(") CHARACTER            
+REFERENCE2                           NEXT     *   ,  O(") CHARACTER            
+REFERENCE3                           NEXT     *   ,  O(") CHARACTER            
+REFERENCE4                           NEXT     *   ,  O(") CHARACTER            
+REFERENCE5                           NEXT     *   ,  O(") CHARACTER            
+JGZZ_RECON_FLAG                      NEXT     *   ,  O(") CHARACTER            
+JGZZ_RECON_CONTEXT                   NEXT     *   ,  O(") CHARACTER            
+PRESERVE_FLAG                        NEXT     *   ,  O(") CHARACTER            
+REFRESH_FLAG                         NEXT     *   ,  O(") CHARACTER            
+IGI_BALANCED_BUDGET_FLAG             NEXT     *   ,  O(") CHARACTER            
+COMPANY_COST_CENTER_ORG_ID           NEXT     *   ,  O(") CHARACTER            
+REVALUATION_ID                       NEXT     *   ,  O(") CHARACTER            
+LEDGER_SEGMENT                       NEXT     *   ,  O(") CHARACTER            
+LEDGER_TYPE_CODE                     NEXT     *   ,  O(") CHARACTER            
+ALTERNATE_CODE_COMBINATION_ID        NEXT     *   ,  O(") CHARACTER            
+DATA_DATE                            NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 8
+
+Table EBS_GL_CODE_COMBINATIONS_LINE:
+  1484 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 237360 bytes(8 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1484
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Jan 15 18:25:12 2019
+Run ended on Tue Jan 15 18:25:12 2019
+
+Elapsed time was:     00:00:00.32
+CPU time was:         00:00:00.08

@@ -1,0 +1,246 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 18:25:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_AP_INVOICES_ALL_LINE.ctl
+Data File:      /dw-data/EBS-DATA/20190103/csv/20190103_ap_invoices_all_201812.csv
+  Bad File:     /dw-data/EBS-DATA/20190103/bad/EBS_AP_INVOICES_ALL_LINE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_AP_INVOICES_ALL_LINE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *   ,  O(") CHARACTER            
+INVOICE_ID                           NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_DATE                     NEXT     *   ,  O(") DATE DD-MM-YY        
+LAST_UPDATED_BY                      NEXT     *   ,  O(") CHARACTER            
+VENDOR_ID                            NEXT     *   ,  O(") CHARACTER            
+INVOICE_NUM                          NEXT     *   ,  O(") CHARACTER            
+SET_OF_BOOKS_ID                      NEXT     *   ,  O(") CHARACTER            
+INVOICE_CURRENCY_CODE                NEXT     *   ,  O(") CHARACTER            
+PAYMENT_CURRENCY_CODE                NEXT     *   ,  O(") CHARACTER            
+PAYMENT_CROSS_RATE                   NEXT     *   ,  O(") CHARACTER            
+INVOICE_AMOUNT                       NEXT     *   ,  O(") CHARACTER            
+VENDOR_SITE_ID                       NEXT     *   ,  O(") CHARACTER            
+AMOUNT_PAID                          NEXT     *   ,  O(") CHARACTER            
+DISCOUNT_AMOUNT_TAKEN                NEXT     *   ,  O(") CHARACTER            
+INVOICE_DATE                         NEXT     *   ,  O(") DATE DD-MM-YY        
+SOURCE                               NEXT     *   ,  O(") CHARACTER            
+INVOICE_TYPE_LOOKUP_CODE             NEXT     *   ,  O(") CHARACTER            
+DESCRIPTION                          NEXT     *   ,  O(") CHARACTER            
+BATCH_ID                             NEXT     *   ,  O(") CHARACTER            
+AMOUNT_APPLICABLE_TO_DISCOUNT        NEXT     *   ,  O(") CHARACTER            
+TAX_AMOUNT                           NEXT     *   ,  O(") CHARACTER            
+TERMS_ID                             NEXT     *   ,  O(") CHARACTER            
+TERMS_DATE                           NEXT     *   ,  O(") DATE DD-MM-YY        
+PAYMENT_METHOD_LOOKUP_CODE           NEXT     *   ,  O(") CHARACTER            
+PAY_GROUP_LOOKUP_CODE                NEXT     *   ,  O(") CHARACTER            
+ACCTS_PAY_CODE_COMBINATION_ID        NEXT     *   ,  O(") CHARACTER            
+PAYMENT_STATUS_FLAG                  NEXT     *   ,  O(") CHARACTER            
+CREATION_DATE                        NEXT     *   ,  O(") DATE DD-MM-YY        
+CREATED_BY                           NEXT     *   ,  O(") CHARACTER            
+BASE_AMOUNT                          NEXT     *   ,  O(") CHARACTER            
+VAT_CODE                             NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_LOGIN                    NEXT     *   ,  O(") CHARACTER            
+EXCLUSIVE_PAYMENT_FLAG               NEXT     *   ,  O(") CHARACTER            
+PO_HEADER_ID                         NEXT     *   ,  O(") CHARACTER            
+FREIGHT_AMOUNT                       NEXT     *   ,  O(") CHARACTER            
+GOODS_RECEIVED_DATE                  NEXT     *   ,  O(") DATE DD-MM-YY        
+INVOICE_RECEIVED_DATE                NEXT     *   ,  O(") DATE DD-MM-YY        
+VOUCHER_NUM                          NEXT     *   ,  O(") CHARACTER            
+APPROVED_AMOUNT                      NEXT     *   ,  O(") CHARACTER            
+RECURRING_PAYMENT_ID                 NEXT     *   ,  O(") CHARACTER            
+EXCHANGE_RATE                        NEXT     *   ,  O(") CHARACTER            
+EXCHANGE_RATE_TYPE                   NEXT     *   ,  O(") CHARACTER            
+EXCHANGE_DATE                        NEXT     *   ,  O(") DATE DD-MM-YY        
+EARLIEST_SETTLEMENT_DATE             NEXT     *   ,  O(") DATE DD-MM-YY        
+ORIGINAL_PREPAYMENT_AMOUNT           NEXT     *   ,  O(") CHARACTER            
+DOC_SEQUENCE_ID                      NEXT     *   ,  O(") CHARACTER            
+DOC_SEQUENCE_VALUE                   NEXT     *   ,  O(") CHARACTER            
+DOC_CATEGORY_CODE                    NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE1                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE2                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE3                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE4                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE5                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE6                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE7                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE8                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE9                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE10                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE11                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE12                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE13                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE14                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE15                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE_CATEGORY                   NEXT     *   ,  O(") CHARACTER            
+APPROVAL_STATUS                      NEXT     *   ,  O(") CHARACTER            
+APPROVAL_DESCRIPTION                 NEXT     *   ,  O(") CHARACTER            
+INVOICE_DISTRIBUTION_TOTAL           NEXT     *   ,  O(") CHARACTER            
+POSTING_STATUS                       NEXT     *   ,  O(") CHARACTER            
+PREPAY_FLAG                          NEXT     *   ,  O(") CHARACTER            
+AUTHORIZED_BY                        NEXT     *   ,  O(") CHARACTER            
+CANCELLED_DATE                       NEXT     *   ,  O(") DATE DD-MM-YY        
+CANCELLED_BY                         NEXT     *   ,  O(") CHARACTER            
+CANCELLED_AMOUNT                     NEXT     *   ,  O(") CHARACTER            
+TEMP_CANCELLED_AMOUNT                NEXT     *   ,  O(") CHARACTER            
+PROJECT_ACCOUNTING_CONTEXT           NEXT     *   ,  O(") CHARACTER            
+USSGL_TRANSACTION_CODE               NEXT     *   ,  O(") CHARACTER            
+USSGL_TRX_CODE_CONTEXT               NEXT     *   ,  O(") CHARACTER            
+PROJECT_ID                           NEXT     *   ,  O(") CHARACTER            
+TASK_ID                              NEXT     *   ,  O(") CHARACTER            
+EXPENDITURE_TYPE                     NEXT     *   ,  O(") CHARACTER            
+EXPENDITURE_ITEM_DATE                NEXT     *   ,  O(") DATE DD-MM-YY        
+PA_QUANTITY                          NEXT     *   ,  O(") CHARACTER            
+EXPENDITURE_ORGANIZATION_ID          NEXT     *   ,  O(") CHARACTER            
+PA_DEFAULT_DIST_CCID                 NEXT     *   ,  O(") CHARACTER            
+VENDOR_PREPAY_AMOUNT                 NEXT     *   ,  O(") CHARACTER            
+PAYMENT_AMOUNT_TOTAL                 NEXT     *   ,  O(") CHARACTER            
+AWT_FLAG                             NEXT     *   ,  O(") CHARACTER            
+AWT_GROUP_ID                         NEXT     *   ,  O(") CHARACTER            
+REFERENCE_1                          NEXT     *   ,  O(") CHARACTER            
+REFERENCE_2                          NEXT     *   ,  O(") CHARACTER            
+ORG_ID                               NEXT     *   ,  O(") CHARACTER            
+PRE_WITHHOLDING_AMOUNT               NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE_CATEGORY            NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE1                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE2                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE3                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE4                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE5                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE6                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE7                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE8                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE9                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE10                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE11                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE12                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE13                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE14                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE15                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE16                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE17                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE18                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE19                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE20                   NEXT     *   ,  O(") CHARACTER            
+AUTO_TAX_CALC_FLAG                   NEXT     *   ,  O(") CHARACTER            
+PAYMENT_CROSS_RATE_TYPE              NEXT     *   ,  O(") CHARACTER            
+PAYMENT_CROSS_RATE_DATE              NEXT     *   ,  O(") DATE DD-MM-YY        
+PAY_CURR_INVOICE_AMOUNT              NEXT     *   ,  O(") CHARACTER            
+MRC_BASE_AMOUNT                      NEXT     *   ,  O(") CHARACTER            
+MRC_EXCHANGE_RATE                    NEXT     *   ,  O(") CHARACTER            
+MRC_EXCHANGE_RATE_TYPE               NEXT     *   ,  O(") CHARACTER            
+MRC_EXCHANGE_DATE                    NEXT     *   ,  O(") DATE DD-MM-YY        
+GL_DATE                              NEXT     *   ,  O(") DATE DD-MM-YY        
+AWARD_ID                             NEXT     *   ,  O(") CHARACTER            
+PAID_ON_BEHALF_EMPLOYEE_ID           NEXT     *   ,  O(") CHARACTER            
+AMT_DUE_CCARD_COMPANY                NEXT     *   ,  O(") CHARACTER            
+AMT_DUE_EMPLOYEE                     NEXT     *   ,  O(") CHARACTER            
+APPROVAL_READY_FLAG                  NEXT     *   ,  O(") CHARACTER            
+APPROVAL_ITERATION                   NEXT     *   ,  O(") CHARACTER            
+WFAPPROVAL_STATUS                    NEXT     *   ,  O(") CHARACTER            
+REQUESTER_ID                         NEXT     *   ,  O(") CHARACTER            
+VALIDATION_REQUEST_ID                NEXT     *   ,  O(") CHARACTER            
+VALIDATED_TAX_AMOUNT                 NEXT     *   ,  O(") CHARACTER            
+QUICK_CREDIT                         NEXT     *   ,  O(") CHARACTER            
+CREDITED_INVOICE_ID                  NEXT     *   ,  O(") CHARACTER            
+DISTRIBUTION_SET_ID                  NEXT     *   ,  O(") CHARACTER            
+APPLICATION_ID                       NEXT     *   ,  O(") CHARACTER            
+PRODUCT_TABLE                        NEXT     *   ,  O(") CHARACTER            
+REFERENCE_KEY1                       NEXT     *   ,  O(") CHARACTER            
+REFERENCE_KEY2                       NEXT     *   ,  O(") CHARACTER            
+REFERENCE_KEY3                       NEXT     *   ,  O(") CHARACTER            
+REFERENCE_KEY4                       NEXT     *   ,  O(") CHARACTER            
+REFERENCE_KEY5                       NEXT     *   ,  O(") CHARACTER            
+TOTAL_TAX_AMOUNT                     NEXT     *   ,  O(") CHARACTER            
+SELF_ASSESSED_TAX_AMOUNT             NEXT     *   ,  O(") CHARACTER            
+TAX_RELATED_INVOICE_ID               NEXT     *   ,  O(") CHARACTER            
+TRX_BUSINESS_CATEGORY                NEXT     *   ,  O(") CHARACTER            
+USER_DEFINED_FISC_CLASS              NEXT     *   ,  O(") CHARACTER            
+TAXATION_COUNTRY                     NEXT     *   ,  O(") CHARACTER            
+DOCUMENT_SUB_TYPE                    NEXT     *   ,  O(") CHARACTER            
+SUPPLIER_TAX_INVOICE_NUMBER          NEXT     *   ,  O(") CHARACTER            
+SUPPLIER_TAX_INVOICE_DATE            NEXT     *   ,  O(") DATE DD-MM-YY        
+SUPPLIER_TAX_EXCHANGE_RATE           NEXT     *   ,  O(") CHARACTER            
+TAX_INVOICE_RECORDING_DATE           NEXT     *   ,  O(") DATE DD-MM-YY        
+TAX_INVOICE_INTERNAL_SEQ             NEXT     *   ,  O(") CHARACTER            
+LEGAL_ENTITY_ID                      NEXT     *   ,  O(") CHARACTER            
+HISTORICAL_FLAG                      NEXT     *   ,  O(") CHARACTER            
+FORCE_REVALIDATION_FLAG              NEXT     *   ,  O(") CHARACTER            
+BANK_CHARGE_BEARER                   NEXT     *   ,  O(") CHARACTER            
+REMITTANCE_MESSAGE1                  NEXT     *   ,  O(") CHARACTER            
+REMITTANCE_MESSAGE2                  NEXT     *   ,  O(") CHARACTER            
+REMITTANCE_MESSAGE3                  NEXT     *   ,  O(") CHARACTER            
+UNIQUE_REMITTANCE_IDENTIFIER         NEXT     *   ,  O(") CHARACTER            
+URI_CHECK_DIGIT                      NEXT     *   ,  O(") CHARACTER            
+SETTLEMENT_PRIORITY                  NEXT     *   ,  O(") CHARACTER            
+PAYMENT_REASON_CODE                  NEXT     *   ,  O(") CHARACTER            
+PAYMENT_REASON_COMMENTS              NEXT     *   ,  O(") CHARACTER            
+PAYMENT_METHOD_CODE                  NEXT     *   ,  O(") CHARACTER            
+DELIVERY_CHANNEL_CODE                NEXT     *   ,  O(") CHARACTER            
+QUICK_PO_HEADER_ID                   NEXT     *   ,  O(") CHARACTER            
+NET_OF_RETAINAGE_FLAG                NEXT     *   ,  O(") CHARACTER            
+RELEASE_AMOUNT_NET_OF_TAX            NEXT     *   ,  O(") CHARACTER            
+CONTROL_AMOUNT                       NEXT     *   ,  O(") CHARACTER            
+PARTY_ID                             NEXT     *   ,  O(") CHARACTER            
+PARTY_SITE_ID                        NEXT     *   ,  O(") CHARACTER            
+PAY_PROC_TRXN_TYPE_CODE              NEXT     *   ,  O(") CHARACTER            
+PAYMENT_FUNCTION                     NEXT     *   ,  O(") CHARACTER            
+CUST_REGISTRATION_CODE               NEXT     *   ,  O(") CHARACTER            
+CUST_REGISTRATION_NUMBER             NEXT     *   ,  O(") CHARACTER            
+PORT_OF_ENTRY_CODE                   NEXT     *   ,  O(") CHARACTER            
+EXTERNAL_BANK_ACCOUNT_ID             NEXT     *   ,  O(") CHARACTER            
+VENDOR_CONTACT_ID                    NEXT     *   ,  O(") CHARACTER            
+INTERNAL_CONTACT_EMAIL               NEXT     *   ,  O(") CHARACTER            
+DISC_IS_INV_LESS_TAX_FLAG            NEXT     *   ,  O(") CHARACTER            
+EXCLUDE_FREIGHT_FROM_DISCOUNT        NEXT     *   ,  O(") CHARACTER            
+PAY_AWT_GROUP_ID                     NEXT     *   ,  O(") CHARACTER            
+ORIGINAL_INVOICE_AMOUNT              NEXT     *   ,  O(") CHARACTER            
+DISPUTE_REASON                       NEXT     *   ,  O(") CHARACTER            
+REMIT_TO_SUPPLIER_NAME               NEXT     *   ,  O(") CHARACTER            
+REMIT_TO_SUPPLIER_ID                 NEXT     *   ,  O(") CHARACTER            
+REMIT_TO_SUPPLIER_SITE               NEXT     *   ,  O(") CHARACTER            
+REMIT_TO_SUPPLIER_SITE_ID            NEXT     *   ,  O(") CHARACTER            
+RELATIONSHIP_ID                      NEXT     *   ,  O(") CHARACTER            
+PO_MATCHED_FLAG                      NEXT     *   ,  O(") CHARACTER            
+VALIDATION_WORKER_ID                 NEXT     *   ,  O(") CHARACTER            
+DATA_DATE                            NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 5
+
+Table EBS_AP_INVOICES_ALL_LINE:
+  118 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 252840 bytes(5 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           118
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Jan 15 18:25:14 2019
+Run ended on Tue Jan 15 18:25:14 2019
+
+Elapsed time was:     00:00:00.12
+CPU time was:         00:00:00.05

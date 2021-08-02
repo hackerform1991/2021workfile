@@ -1,0 +1,182 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:38:51 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_REPAY_INFO.ctl
+Data File:      /dw-data/AICS/20190307/csv/20190307-TrepayInfo.csv
+  Bad File:     /dw-data/AICS/20190307/bad/AICS_REPAY_INFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_REPAY_INFO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROCESS_INSTANCEID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANACCOUNTCODE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TYPE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RIVALID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREOCCURDATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PREOCCUR_BALANCE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OCCUR_BALANCE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYABLE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PURCHASE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPOSITTYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISDEBTS                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REMARK                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVOICE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYWAY                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYSOURCE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHECKFLAG                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATER                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATE_DATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ISOUTPACE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AFFLID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISDEBTSLOAN                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OURAMOUNT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTOMERFUND                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUBJECTNO                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACQUISITIONTYPE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTSTATE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTCHECK                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTEXAMINE                      NEXT  2000      O(") CHARACTER            
+    Terminator string : '^*'
+APPROVESTATE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPROVECHECK                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPROVEEXAMINE                       NEXT  2000      O(") CHARACTER            
+    Terminator string : '^*'
+APPROVEPID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTPID                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYSTATUS                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCONAME                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKNAME                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKACCO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAXAMOUNT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+USERCODE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPTDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REIMBURSEUNIT                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPARTMENT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAY_DESCRIPTION                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ERRORMSG                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BATCHNO                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RINCOME                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RCAPITAL                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REPAYPLANID                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISTOCAPITALSYS                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AMOUNT_WITHOUT_TAX                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OTHER_PAYNAME                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EQUITY_INVEST_TYPE                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYMENT_NUMBER_NO                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYMENT_NUMBER_NAME                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUND_CARRY_OUT                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYMENT_COMPANY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPROVE_NO                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAY_CATEGORY                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 12
+
+Table AICS_REPAY_INFO:
+  2 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 246192 bytes(12 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             2
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Apr 22 16:38:51 2019
+Run ended on Mon Apr 22 16:38:51 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

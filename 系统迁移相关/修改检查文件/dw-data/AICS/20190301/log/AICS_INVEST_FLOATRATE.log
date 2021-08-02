@@ -1,0 +1,75 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_INVEST_FLOATRATE.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-InvestFloatRate.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_INVEST_FLOATRATE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_FLOATRATE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CONTRACTID                          FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATEID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATEKIND                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BEGINDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENDDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+BEGINSCALE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENDSCALE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CALCCYCLE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATEDAYS                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+
+Table AICS_INVEST_FLOATRATE:
+  144 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 214656 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           144
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:30 2019
+Run ended on Wed Mar 06 10:03:30 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

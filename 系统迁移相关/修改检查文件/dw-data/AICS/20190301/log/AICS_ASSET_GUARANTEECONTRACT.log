@@ -1,0 +1,124 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:29 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_ASSET_GUARANTEECONTRACT.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-AssetGuaranteeContract.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_ASSET_GUARANTEECONTRACT.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_ASSET_GUARANTEECONTRACT, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GUARANTEECONTRACTCODE               FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEECONTRACTNO                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEECONTRACTNUM                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEETYPE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RELATIONCODE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEEAMOUNT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REMAININGGUARANTEEAMOUNT             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEESTARTDATE                   NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+GUARANTEEENDDATE                     NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+GUARANTEEPERIOD                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEESTATUS                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERUSER                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERTIME                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LASTUPDATEUSER                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTUPDATETIME                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+OPERATINGSTATUS                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUALIFICATION                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECOVERABLEBALANCEC                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISPOSALMONEY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISPOSALYEARS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BALANCECOST                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENTBALANCE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEDUCTIONTEN                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTTIMELOSS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTBALANCE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISGUARANTEETYPE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ESCROWSTATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LIMITATIONEXPDATE                    NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 32
+Record 1: Rejected - Error on table AICS_ASSET_GUARANTEECONTRACT, column RELATIONCODE.
+ORA-12899: value too large for column "SRC_LAYER"."AICS_ASSET_GUARANTEECONTRACT"."RELATIONCODE" (actual: 65, maximum: 32)
+
+Record 12: Rejected - Error on table AICS_ASSET_GUARANTEECONTRACT, column RELATIONCODE.
+ORA-12899: value too large for column "SRC_LAYER"."AICS_ASSET_GUARANTEECONTRACT"."RELATIONCODE" (actual: 65, maximum: 32)
+
+Record 23: Rejected - Error on table AICS_ASSET_GUARANTEECONTRACT, column RELATIONCODE.
+ORA-12899: value too large for column "SRC_LAYER"."AICS_ASSET_GUARANTEECONTRACT"."RELATIONCODE" (actual: 65, maximum: 32)
+
+Record 34: Rejected - Error on table AICS_ASSET_GUARANTEECONTRACT, column RELATIONCODE.
+ORA-12899: value too large for column "SRC_LAYER"."AICS_ASSET_GUARANTEECONTRACT"."RELATIONCODE" (actual: 65, maximum: 32)
+
+
+Table AICS_ASSET_GUARANTEECONTRACT:
+  40 Rows successfully loaded.
+  4 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 255936 bytes(32 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            44
+Total logical records rejected:         4
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:29 2019
+Run ended on Wed Mar 06 10:03:29 2019
+
+Elapsed time was:     00:00:00.06
+CPU time was:         00:00:00.02

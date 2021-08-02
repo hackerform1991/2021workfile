@@ -1,0 +1,439 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:28 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_ACCOUNT_BANKINFO.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-AccountBankinfo.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_ACCOUNT_BANKINFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_ACCOUNT_BANKINFO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACCOBELONG                          FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOCHECKSERVICEPROTOCOL             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOFUNCTION                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOMANAGEPROTOCOL                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCONAME                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOPROPERTY                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOTYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOUNTMEMO                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOUNTTOTAL                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ADDRESS                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AGENTBANK                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AGENTBANKACCOUNT                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPLYER                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPLYID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ARCHIVE_REVIEWER                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ARCHIVE_STATUS                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ARCHIVE_USER                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AREA                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AREACODE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AUDITTYPE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AUTHUSHIELDNUM                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKACCO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKNAME                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKNO                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKRATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BIGPAYSYSTEMNO                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CALINTERESTTYPE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CANCELACCOAPPLICATION                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CANCELACCOPAPER                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CANCELER                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CANCELEXPLAIN                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CANCELSTATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHANGECONTENT                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CITYNO                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COUNTERBILLSAVETYPE                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COUNTERREMITTYPE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPOSITTYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EBANKKEY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERUSER                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FILENO                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDTRUSTEE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEE_BANK_CODE                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEE_BANK_NO                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HAVECANFLG                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HAVERECEIPTFLG                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IS_RATE_FIXED                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IS_SUSPENDED                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISCANCEL                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISCUSTODIAL                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISREVIEW                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSAVEFILE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSETSUBACCOUNT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISUSEACCOUNT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+JRXXKZBH                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+JRXXKZHM                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+KEEPBAKCONTRACTTYPE                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+KEEPBANKNAME                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MONEYTYPE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NAMEINBANK                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ODDWAY                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ONLINEBANKOPERATOR                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OPENACCOAPPLICATION                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OPENACCOUNTDATE                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+OPENEBANKPAY                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OPENEBANKSEARCH                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OPENER                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OPERATOR                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ORGANCODE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OTHERREMITTYPE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OTHERRTNRECEIPT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCTCATEGORY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PUBLICFLG                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPTFLG                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTTYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALAPPROVAL                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALAUDITOR                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALCARD                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALOPERATOR                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALS                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALSAVETYPE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALSEALS                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SEALSEALSAVETYPE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STATUS                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SWIFTCODE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRADEID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSTYPE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPDATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WEBBANKCANCELRTNRECEIPT              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WEBBANKOPENRTNRECEIPT                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZHDZPD                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZHGLQK                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZHSWBGFS                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZHYJBGFS                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ARCHIVE_TIME                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CANCELACCODATE                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CANCELAPPROVEDATE                    NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CHANGEDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DELAYDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENABLEDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENDDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+EXPIREDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LASTMODIFYDATE                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+OPENACCODATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REVIEWTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+SETDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+VALUEDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ACCOID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BANKNOBRAC                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RETAINAGE_ID                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SERIALNO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 8
+Record 1: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 2: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 3: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 4: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 5: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CANCELACCODATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 6: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 7: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 8: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 9: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 10: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 11: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 12: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 13: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 14: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 15: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 16: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 17: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 18: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 19: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 20: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 21: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 22: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 23: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 24: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 25: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 26: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 27: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CANCELACCODATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 28: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 29: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 30: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 31: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 32: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 33: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 34: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 35: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 36: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 37: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 38: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 39: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 40: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 41: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 42: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 43: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 44: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 45: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 46: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 47: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 48: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 49: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CANCELACCODATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 50: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 51: Rejected - Error on table AICS_ACCOUNT_BANKINFO, column CREATETIME.
+ORA-01830: date format picture ends before converting entire input string
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table AICS_ACCOUNT_BANKINFO:
+  0 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 241488 bytes(8 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            56
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:28 2019
+Run ended on Wed Mar 06 10:03:29 2019
+
+Elapsed time was:     00:00:00.08
+CPU time was:         00:00:00.03

@@ -1,0 +1,41 @@
+## 决策平台去除单点登录方案
+#### 背景
+近期我们在测试环境中去除单点登录遇到困难，经过分析后发现问题并进行处理，在此记录处理过程
+
+1. 步骤1：去除或更新应用目录下对应的web.xml文件
+    > 一. 去除直接去除文件夹目录下的`WEB-INF`下的`web.xml`    
+    > 二. 更新目录下的`web.xml`文件,将类似以下段落去除
+    >```xml
+    > <filter>   
+    >    <filter-name>Auther</filter-name>   
+    >    <filter-class>com.fr.io.FrFilter</filter-class>   
+    > </filter>   
+    ><filter-mapping>   
+    >    <filter-name>Auther</filter-name>   
+    >    <url-pattern>/decision/view/report</url-pattern>  //拦截report 
+    ></filter-mapping> 
+    ><filter-mapping>   
+    >    <filter-name>Auther</filter-name>   
+    >    <url-pattern>/decision/view/form</url-pattern>    //拦截form
+    ></filter-mapping>
+    ><filter-mapping>   
+    >    <filter-name>Auther</filter-name>   
+    >    <url-pattern>/decision</url-pattern>    //拦截pc平台
+    ></filter-mapping>
+    ><filter-mapping>   
+    >    <filter-name>Auther</filter-name>   
+    >    <url-pattern>/decision/url/mobile</url-pattern>  //拦截移动端平台
+    ></filter-mapping> 
+    >```
+2. 步骤2. 还原决策报表登录页设置
+    > 说明：请查看`还原登录页设置.pdf`了解更详细信息
+    * 步骤1：使用finereport工具进行服务器远程连接
+        > 说明：请查看`切换工作目录.pdf`中关于远程服务器中的内容描述连接至远程服务器
+    * 步骤2：配置数据库连接（在`还原登录页设置.pdf`中有相关描述）
+    * 步骤3：按照方法说明去修改服务器内置数据库`finedb`中表`FINE_CONF_ENTITY`的配置，将以下两个信息删除即可完成还原决策报表登录页面
+
+      id|value
+      :--|:--
+      AppearanceConfig.loginUrl|login.jsp
+      AppearanceConfig.loginType|1
+3. 步骤3. 重启服务器

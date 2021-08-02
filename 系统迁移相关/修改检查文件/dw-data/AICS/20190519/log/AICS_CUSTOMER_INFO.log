@@ -1,0 +1,152 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon May 20 17:54:44 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_CUSTOMER_INFO.ctl
+Data File:      /dw-data/AICS/20190519/csv/20190519-CustomerInfo.csv
+  Bad File:     /dw-data/AICS/20190519/bad/AICS_CUSTOMER_INFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_CUSTOMER_INFO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+VIRTUAL_COLUM                       FIRST     *      O(") CHARACTER            
+  (FILLER FIELD)
+    Terminator string : '^*'
+CUSTOMERCODE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTOMERNAME                         NEXT   500      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTOMERPROPERTY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CERTIFICATETYPE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CERTIFICATECODE                      NEXT   382      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTOMERCITY                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISVALID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+UPDATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPDATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENTSCALE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SERIALNO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTTYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SETUPDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+BUSINESSCOPE                         NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+AREA                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STATUS                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TEMPCODE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTCODE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LISTEDFLAG                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLESOCIALCREDIT                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INDUSTRYDETAIL                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CINO                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGISTER_PLACE                       NEXT   600      O(") CHARACTER            
+    Terminator string : '^*'
+NATURE                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUALIFICATION                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EMPLOYEE_NUM                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDIT_DATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ADVANCE_KIND                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ADVANCE_REASON                       NEXT  1200      O(") CHARACTER            
+    Terminator string : '^*'
+COLOR_FLAG                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RISK_CUSTOM_FLAG                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINANCIAL_REPORT_FLAG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINACE_IMPOR_CUSTOM                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLAT_CUSTOM_FLAG                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEVELOP_BOROUGH_FLAG                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+YJH_RISK_PREDICT_FLAG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTOM_INDUSTRY_FLAG                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GREEN_CREDIT_FLAG                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAND_AGENT_ADMITTANCE_FLAG           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CUST_STATE_CISBORDER                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ROAD_BELONG_DEPARTMENT               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUALIFICATION_LEVEL                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GOVERN_INVEST_CUST_TYPE              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MARKETING_CLASS                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUSINESS_COUNTRY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DESCRIPTION                          NEXT  2000      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRAST_CLASS                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IMPOR_SHIFT_CUST                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GOVERN_AREA                          NEXT   500      O(") CHARACTER            
+    Terminator string : '^*'
+BELONG_AREA                          NEXT   500      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_PERSON                          NEXT   500      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_PERSON_AREA                     NEXT   500      O(") CHARACTER            
+    Terminator string : '^*'
+STAFF_CODE                           NEXT   500      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_MODIFY_TIME                     NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CUSTOMER_STATUS                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NATURE2                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+SQL*Loader-466: Column ETL_DATE does not exist in table AICS_CUSTOMER_INFO.

@@ -1,0 +1,124 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 18:25:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_FND_FLEX_VALUES_LINE.ctl
+Data File:      /dw-data/EBS-DATA/20190103/csv/20190103_fnd_flex_values_201812.csv
+  Bad File:     /dw-data/EBS-DATA/20190103/bad/EBS_FND_FLEX_VALUES_LINE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_FND_FLEX_VALUES_LINE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *   ,  O(") CHARACTER            
+FLEX_VALUE_SET_ID                    NEXT     *   ,  O(") CHARACTER            
+FLEX_VALUE_ID                        NEXT     *   ,  O(") CHARACTER            
+FLEX_VALUE                           NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_DATE                     NEXT     *   ,  O(") DATE DD-MM-YY        
+LAST_UPDATED_BY                      NEXT     *   ,  O(") CHARACTER            
+CREATION_DATE                        NEXT     *   ,  O(") DATE DD-MM-YY        
+CREATED_BY                           NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_LOGIN                    NEXT     *   ,  O(") CHARACTER            
+ENABLED_FLAG                         NEXT     *   ,  O(") CHARACTER            
+SUMMARY_FLAG                         NEXT     *   ,  O(") CHARACTER            
+START_DATE_ACTIVE                    NEXT     *   ,  O(") DATE DD-MM-YY        
+END_DATE_ACTIVE                      NEXT     *   ,  O(") DATE DD-MM-YY        
+PARENT_FLEX_VALUE_LOW                NEXT     *   ,  O(") CHARACTER            
+PARENT_FLEX_VALUE_HIGH               NEXT     *   ,  O(") CHARACTER            
+STRUCTURED_HIERARCHY_LEVEL           NEXT     *   ,  O(") CHARACTER            
+HIERARCHY_LEVEL                      NEXT     *   ,  O(") CHARACTER            
+COMPILED_VALUE_ATTRIBUTES            NEXT     *   ,  O(") CHARACTER            
+VALUE_CATEGORY                       NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE1                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE2                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE3                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE4                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE5                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE6                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE7                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE8                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE9                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE10                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE11                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE12                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE13                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE14                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE15                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE16                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE17                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE18                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE19                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE20                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE21                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE22                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE23                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE24                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE25                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE26                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE27                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE28                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE29                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE30                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE31                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE32                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE33                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE34                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE35                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE36                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE37                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE38                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE39                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE40                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE41                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE42                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE43                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE44                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE45                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE46                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE47                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE48                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE49                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE50                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE_SORT_ORDER                 NEXT     *   ,  O(") CHARACTER            
+ZD_EDITION_NAME                      NEXT     *   ,  O(") CHARACTER            
+ZD_SYNC                              NEXT     *   ,  O(") CHARACTER            
+DATA_DATE                            NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "sysdate"
+
+value used for ROWS parameter changed from 64 to 13
+
+Table EBS_FND_FLEX_VALUES_LINE:
+  6028 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 248196 bytes(13 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          6028
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Jan 15 18:25:13 2019
+Run ended on Tue Jan 15 18:25:14 2019
+
+Elapsed time was:     00:00:00.74
+CPU time was:         00:00:00.14

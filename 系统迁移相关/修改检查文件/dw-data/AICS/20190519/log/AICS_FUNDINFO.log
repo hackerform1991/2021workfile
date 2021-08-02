@@ -1,0 +1,73 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon May 20 17:54:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_FUNDINFO.ctl
+Data File:      /dw-data/AICS/20190519/csv/20190519-FundInfo.csv
+  Bad File:     /dw-data/AICS/20190519/bad/AICS_FUNDINFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_PLAN, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FUNDCODE                            FIRST     6      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDNAME                             NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDSHORTNAME                        NEXT    60      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+SUBPROJECTCODE                       NEXT    60      O(") CHARACTER            
+    Terminator string : '^*'
+MONEYTYPE                            NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+ISSUEPRICE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSUEDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+SETUPDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+FUNDSTATUS                           NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+TIMELIMIT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSUEENDDATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CONTRACTENDDATE                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+STRUCTFLAG                           NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+STRUCTTYPE                           NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+RISKGRADE                            NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDDESC                             NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+TIMELIMITUNIT                        NEXT     5      O(") CHARACTER            
+    Terminator string : '^*'
+MINBALA                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MAXBALA                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+SQL*Loader-466: Column FUNDCODE does not exist in table AICS_INVEST_PLAN.

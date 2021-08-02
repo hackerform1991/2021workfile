@@ -1,0 +1,2947 @@
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:11:22 PM:
+document: -EBS
+***********************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:11:33 PM:
+document: 20190103-EBS
+***********************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:13:22 PM:
+document: 20190103-EBS-REPORT
+***********************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:14:07 PM:
+document: 20190103-EBS-REPORT
+***********************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:39:12 PM:
+document: 20190103-EBS-REPORT
+***********************
+[ERROR] 01/14/19:03:39:12 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:40:54 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:03:40:54 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:03:49:55 PM:
+document: 20190103-EBS-REPORT
+***********************
+[ERROR] 01/14/19:03:49:55 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:16:05 PM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/14/19:05:16:05 PM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/14/19:05:16:05 PM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:16:21 PM:
+document: 20190103-EBS-REPORT
+***********************
+[ERROR] 01/14/19:05:16:21 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:18:23 PM:
+document: 20190103-EBS-REPORT
+***********************
+[ERROR] 01/14/19:05:18:23 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:34:16 PM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/14/19:05:34:16 PM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/14/19:05:34:16 PM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:34:27 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:34:27 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:34:27 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:34:27 PM: create folder named 20190103
+[INFO] 01/14/19:05:34:27 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:34:27 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:41:37 PM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/14/19:05:41:37 PM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/14/19:05:41:37 PM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:41:45 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:41:45 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:41:45 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:41:45 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:41:45 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:41:45 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:41:45 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:43:06 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:43:06 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:43:06 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:43:06 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:43:06 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:43:06 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:43:06 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:45:13 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:45:13 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:45:13 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:45:13 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:45:13 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:45:13 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:45:13 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:47:21 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:47:21 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:47:21 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:47:21 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:47:21 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:47:21 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:47:21 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:48:18 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:48:18 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:48:18 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:48:18 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:48:18 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:48:18 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:48:18 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:48:54 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:48:54 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:48:54 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:48:54 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:48:54 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:48:54 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:48:54 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:50:22 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:50:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:50:22 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:50:22 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:50:22 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:50:22 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:50:22 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:51:38 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:51:38 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:51:38 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:51:38 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:51:38 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:51:38 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:51:38 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:53:14 PM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/14/19:05:53:14 PM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/14/19:05:53:14 PM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:53:28 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:53:28 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:53:28 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:53:28 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:53:28 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:53:28 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:53:28 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:53:57 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:53:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:53:57 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:53:57 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:53:57 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:53:57 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:53:57 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:05:54:37 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:05:54:37 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:05:54:37 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:05:54:37 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:05:54:37 PM: new a folder named 20190103 again
+[INFO] 01/14/19:05:54:37 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:05:54:37 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:06:05:22 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:06:05:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:06:05:22 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:06:05:22 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:06:05:22 PM: new a folder named 20190103 again
+[INFO] 01/14/19:06:05:22 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:06:05:22 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/14/19:06:05:22 PM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/14/19:06:07:20 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/14/19:06:07:20 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/14/19:06:07:20 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/14/19:06:07:20 PM: 20190103 is created will delete befor tar
+[INFO] 01/14/19:06:07:20 PM: new a folder named 20190103 again
+[INFO] 01/14/19:06:07:20 PM: tar-x the file to 20190103/csv
+[INFO] 01/14/19:06:07:20 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/14/19:06:07:20 PM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:09:43:22 AM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/15/19:09:43:22 AM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/15/19:09:43:22 AM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:09:43:37 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:09:43:37 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:09:43:37 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:09:43:37 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:09:43:37 AM: new a folder named 20190103 again
+[INFO] 01/15/19:09:43:37 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:09:43:37 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:09:43:37 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 09:43:37 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:09:45:40 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:09:45:40 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:09:45:40 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:09:45:40 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:09:45:40 AM: new a folder named 20190103 again
+[INFO] 01/15/19:09:45:40 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:09:45:40 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:09:45:40 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 09:45:40 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:09:50:47 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:09:50:47 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:09:50:47 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:09:50:47 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:09:50:47 AM: new a folder named 20190103 again
+[INFO] 01/15/19:09:50:47 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:09:50:47 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:09:50:47 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 09:50:47 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:09:55:29 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:09:55:29 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:09:55:29 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:09:55:29 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:09:55:29 AM: new a folder named 20190103 again
+[INFO] 01/15/19:09:55:29 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:09:55:29 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:09:55:29 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 09:55:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:10:37:26 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:10:37:26 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:10:37:26 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:10:37:26 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:10:37:26 AM: new a folder named 20190103 again
+[INFO] 01/15/19:10:37:26 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:10:37:26 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:10:37:26 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 10:37:27 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:10:37:26 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 10:37:27 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:10:38:40 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:10:38:40 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:10:38:40 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:10:38:40 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:10:38:40 AM: new a folder named 20190103 again
+[INFO] 01/15/19:10:38:40 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:10:38:40 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:10:38:40 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 10:38:40 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:10:38:40 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 10:38:40 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:10:39:02 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:10:39:02 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:10:39:02 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:10:39:02 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:10:39:02 AM: new a folder named 20190103 again
+[INFO] 01/15/19:10:39:02 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:10:39:02 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:10:39:02 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 10:39:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:10:39:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 10:39:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:15:13 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:15:13 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:15:13 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:15:13 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:15:13 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:15:13 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:15:13 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:15:13 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:15:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:15:13 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:15:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:16:33 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:16:33 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:16:33 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:16:33 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:16:33 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:16:33 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:16:33 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:16:33 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:16:33 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:16:33 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:16:33 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:17:43 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:17:43 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:17:43 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:17:43 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:17:43 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:17:43 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:17:43 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:17:43 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:17:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:17:43 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:17:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:22:02 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:22:02 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:22:02 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:22:02 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:22:02 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:22:02 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:22:02 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:22:02 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:22:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:22:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:22:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:23:42 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:23:42 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:23:42 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:23:42 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:23:42 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:23:42 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:23:42 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:23:42 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:23:42 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:23:42 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:23:42 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:24:05 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:24:05 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:24:05 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:24:05 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:24:05 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:24:05 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:24:05 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:24:05 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:24:06 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:24:05 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:24:06 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:29:22 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:29:22 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:29:22 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:29:22 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:29:22 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:29:22 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:29:22 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:29:22 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:29:22 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:29:22 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:29:22 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 60
+
+Table EBS_BSSHEET_LINE:
+  60 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_LINE.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:11:50:11 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:11:50:11 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:11:50:11 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:11:50:11 AM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:11:50:11 AM: new a folder named 20190103 again
+[INFO] 01/15/19:11:50:11 AM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:11:50:11 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:11:50:11 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:50:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:50:11 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:50:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 60
+
+Table EBS_BSSHEET_LINE:
+  60 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_LINE.log
+for more information about the load.
+*************end***************
+[INFO] 01/15/19:11:50:11 AM: begin to load table EBS_PLSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:50:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_PLSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_PLSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:11:50:11 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 11:50:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 33
+
+Table EBS_PLSHEET_LINE:
+  33 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_PLSHEET_LINE.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/15/19:02:09:19 PM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/15/19:02:09:19 PM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/15/19:02:09:19 PM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/15/19:02:09:19 PM: 20190103 is created will delete befor tar
+[INFO] 01/15/19:02:09:19 PM: new a folder named 20190103 again
+[INFO] 01/15/19:02:09:19 PM: tar-x the file to 20190103/csv
+[INFO] 01/15/19:02:09:19 PM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/15/19:02:09:19 PM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 14:09:19 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:02:09:19 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 14:09:19 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 60
+
+Table EBS_BSSHEET_LINE:
+  60 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_LINE.log
+for more information about the load.
+*************end***************
+[INFO] 01/15/19:02:09:19 PM: begin to load table EBS_PLSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 14:09:19 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_PLSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_PLSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:02:09:19 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 14:09:20 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 33
+
+Table EBS_PLSHEET_LINE:
+  33 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_PLSHEET_LINE.log
+for more information about the load.
+*************end***************
+[INFO] 01/15/19:02:09:19 PM: begin to load table EBS_EXPDETAIL_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 14:09:20 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_EXPDETAIL_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_EXPDETAIL_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/15/19:02:09:19 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 14:09:20 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 47
+Commit point reached - logical record count 94
+Commit point reached - logical record count 141
+Commit point reached - logical record count 186
+
+Table EBS_EXPDETAIL_LINE:
+  186 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_EXPDETAIL_LINE.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/16/19:10:45:18 AM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/16/19:10:45:18 AM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/16/19:10:45:18 AM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 01/16/19:10:45:38 AM:
+document: 20190103-EBS-REPORT
+***********************
+[INFO] 01/16/19:10:45:38 AM: the document EBS-REPORT-AUD.READY is not exist 20190103-EBS-REPORT.READY will to load data
+[INFO] 01/16/19:10:45:38 AM: 20190103-EBS-REPORT.READY ready to load data 
+[INFO] 01/16/19:10:45:38 AM: 20190103 is created will delete befor tar
+[INFO] 01/16/19:10:45:38 AM: new a folder named 20190103 again
+[INFO] 01/16/19:10:45:38 AM: tar-x the file to 20190103/csv
+[INFO] 01/16/19:10:45:38 AM: tar -xvf start:
+20190103_ap_invoices_all_201812.csv
+20190103_ap_invoice_distributions_all_201812.csv
+20190103_ap_invoice_lines_all_201812.csv
+20190103_ap_suppliers_201812.csv
+20190103_bssheet_201812.csv
+20190103_expdetail_201812.csv
+20190103_fnd_flex_values_201812.csv
+20190103_fnd_flex_value_sets_201812.csv
+20190103_fnd_id_flex_segments_201812.csv
+20190103_gl_balances_201812.csv
+20190103_gl_code_combinations_201812.csv
+20190103_gl_ledgers_201812.csv
+20190103_per_all_people_f_201812.csv
+20190103_plsheet_201812.csv
+ 
+[INFO] 01/16/19:10:45:38 AM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 10:45:38 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_HEADER_201812.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:10:45:38 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 10:45:38 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 60
+
+Table EBS_BSSHEET_LINE:
+  60 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_BSSHEET_LINE.log
+for more information about the load.
+*************end***************
+[INFO] 01/16/19:10:45:38 AM: begin to load table EBS_PLSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 10:45:38 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_PLSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_PLSHEET_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:10:45:38 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 10:45:39 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 33
+
+Table EBS_PLSHEET_LINE:
+  33 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_PLSHEET_LINE.log
+for more information about the load.
+*************end***************
+[INFO] 01/16/19:10:45:38 AM: begin to load table EBS_EXPDETAIL_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 10:45:39 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_EXPDETAIL_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_EXPDETAIL_HEADER.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:10:45:38 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 10:45:39 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 47
+Commit point reached - logical record count 94
+Commit point reached - logical record count 141
+Commit point reached - logical record count 186
+
+Table EBS_EXPDETAIL_LINE:
+  186 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190103/log/EBS_EXPDETAIL_LINE.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/16/19:03:10:22 PM:
+document: 20190116-EBS-REPORT
+***********************
+[INFO] 01/16/19:03:10:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190116-EBS-REPORT.READY will to load data
+[INFO] 01/16/19:03:10:22 PM: 20190116-EBS-REPORT.READY ready to load data 
+[INFO] 01/16/19:03:10:22 PM: create folder named 20190116
+[INFO] 01/16/19:03:10:22 PM: tar-x the file to 20190116/csv
+[INFO] 01/16/19:03:10:22 PM: tar -xvf start:
+20190116_bssheet_2018-12.csv
+20190116_expdetail_2018-12.csv
+20190116_plsheet_2018-12.csv
+ 
+[INFO] 01/16/19:03:10:22 PM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:10:22 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+
+Table EBS_BSSHEET_HEADER:
+  0 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_BSSHEET_HEADER_018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:10:22 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:10:23 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+
+Table EBS_BSSHEET_LINE:
+  0 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_BSSHEET_LINE_018-12.log
+for more information about the load.
+*************end***************
+[INFO] 01/16/19:03:10:22 PM: begin to load table EBS_PLSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:10:23 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+
+Table EBS_PLSHEET_HEADER:
+  0 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_PLSHEET_HEADER_018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:10:22 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:10:23 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+*************end***************
+[INFO] 01/16/19:03:10:22 PM: begin to load table EBS_EXPDETAIL_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:10:23 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+
+Table EBS_EXPDETAIL_HEADER:
+  0 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_EXPDETAIL_HEADER_018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:10:22 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:10:23 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/16/19:03:30:16 PM:
+document: 20190116-EBS-REPORT
+***********************
+[INFO] 01/16/19:03:30:16 PM: the document EBS-REPORT-AUD.READY is not exist 20190116-EBS-REPORT.READY will to load data
+[INFO] 01/16/19:03:30:16 PM: 20190116-EBS-REPORT.READY ready to load data 
+[INFO] 01/16/19:03:30:16 PM: 20190116 is created will delete befor tar
+[INFO] 01/16/19:03:30:16 PM: new a folder named 20190116 again
+[INFO] 01/16/19:03:30:16 PM: tar-x the file to 20190116/csv
+[INFO] 01/16/19:03:30:16 PM: tar -xvf start:
+20190116_bssheet_2018-12.csv
+20190116_expdetail_2018-12.csv
+20190116_plsheet_2018-12.csv
+ 
+[INFO] 01/16/19:03:30:16 PM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:30:16 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_BSSHEET_HEADER_2018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:30:16 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:30:17 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 60
+
+Table EBS_BSSHEET_LINE:
+  60 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_BSSHEET_LINE_2018-12.log
+for more information about the load.
+*************end***************
+[INFO] 01/16/19:03:30:16 PM: begin to load table EBS_PLSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:30:17 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_PLSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_PLSHEET_HEADER_2018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:30:16 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:30:17 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+*************end***************
+[INFO] 01/16/19:03:30:16 PM: begin to load table EBS_EXPDETAIL_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:30:17 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_EXPDETAIL_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_EXPDETAIL_HEADER_2018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:30:16 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:30:17 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/16/19:03:37:43 PM:
+document: 20190116-EBS-REPORT
+***********************
+[INFO] 01/16/19:03:37:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190116-EBS-REPORT.READY will to load data
+[INFO] 01/16/19:03:37:43 PM: 20190116-EBS-REPORT.READY ready to load data 
+[INFO] 01/16/19:03:37:43 PM: 20190116 is created will delete befor tar
+[INFO] 01/16/19:03:37:43 PM: new a folder named 20190116 again
+[INFO] 01/16/19:03:37:43 PM: tar-x the file to 20190116/csv
+[INFO] 01/16/19:03:37:43 PM: tar -xvf start:
+20190116_bssheet_2018-12.csv
+20190116_expdetail_2018-12.csv
+20190116_plsheet_2018-12.csv
+ 
+[INFO] 01/16/19:03:37:43 PM: begin to load table EBS_BSSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_BSSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_BSSHEET_HEADER_2018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:37:43 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 60
+
+Table EBS_BSSHEET_LINE:
+  60 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_BSSHEET_LINE_2018-12.log
+for more information about the load.
+*************end***************
+[INFO] 01/16/19:03:37:43 PM: begin to load table EBS_PLSHEET_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_PLSHEET_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_PLSHEET_HEADER_2018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:37:43 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 27
+Commit point reached - logical record count 33
+
+Table EBS_PLSHEET_LINE:
+  33 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_PLSHEET_LINE_2018-12.log
+for more information about the load.
+*************end***************
+[INFO] 01/16/19:03:37:43 PM: begin to load table EBS_EXPDETAIL_HEADER
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:43 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional, LOAD=1
+Commit point reached - logical record count 1
+
+Table EBS_EXPDETAIL_HEADER:
+  1 Row successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_EXPDETAIL_HEADER_2018-12.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 01/16/19:03:37:43 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Jan 16 15:37:44 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 27
+Commit point reached - logical record count 54
+Commit point reached - logical record count 81
+Commit point reached - logical record count 108
+Commit point reached - logical record count 135
+Commit point reached - logical record count 162
+Commit point reached - logical record count 189
+Commit point reached - logical record count 216
+Commit point reached - logical record count 243
+Commit point reached - logical record count 270
+Commit point reached - logical record count 297
+Commit point reached - logical record count 324
+Commit point reached - logical record count 351
+Commit point reached - logical record count 372
+
+Table EBS_EXPDETAIL_LINE:
+  372 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT/20190116/log/EBS_EXPDETAIL_LINE_2018-12.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 01/17/19:11:45:49 AM:
+document: -EBS-REPORT
+***********************
+[INFO] 01/17/19:11:45:49 AM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 01/17/19:11:45:49 AM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 03/29/19:09:42:13 AM:
+document: 20190328-EBS-REPORT
+***********************
+[ERROR] 03/29/19:09:42:13 AM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/01/19:04:00:52 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/01/19:04:00:52 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT.READY will to load data
+[ERROR] 04/01/19:04:00:52 PM: startelt at  not exist 20190331-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:12:21:52 PM:
+document: -EBS-REPORT
+***********************
+[INFO] 04/08/19:12:21:52 PM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 04/08/19:12:21:52 PM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:12:22:39 PM:
+document: -EBS-REPORT
+***********************
+[INFO] 04/08/19:12:22:39 PM: the document EBS-REPORT-AUD.READY is not exist -EBS-REPORT.READY will to load data
+[ERROR] 04/08/19:12:22:39 PM: startelt at  not exist -EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:03:14:54 PM:
+document: 2019-03-28-EBS-REPORT
+***********************
+[INFO] 04/08/19:03:14:54 PM: the document EBS-REPORT-AUD.READY is not exist 2019-03-28-EBS-REPORT.READY will to load data
+[ERROR] 04/08/19:03:14:54 PM: startelt at  not exist 2019-03-28-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:03:21:22 PM:
+document: 20190328-EBS-REPORT
+***********************
+[ERROR] 04/08/19:03:21:22 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:03:31:25 PM:
+document: 20190328-EBS-REPORT
+***********************
+[ERROR] 04/08/19:03:31:25 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:03:42:08 PM:
+document: 20190328-EBS-REPORT
+***********************
+[ERROR] 04/08/19:03:42:08 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/08/19:03:52:54 PM:
+document: 20190328-EBS-REPORT
+***********************
+[ERROR] 04/08/19:03:52:54 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:02:27:24 PM:
+document: 20190329-EBS-REPORT
+***********************
+[INFO] 04/11/19:02:27:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190329-EBS-REPORT.READY will to load data
+[ERROR] 04/11/19:02:27:24 PM: startelt at  not exist 20190329-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:02:33:04 PM:
+document: 20190330-EBS-REPORT
+***********************
+[INFO] 04/11/19:02:33:04 PM: the document EBS-REPORT-AUD.READY is not exist 20190330-EBS-REPORT.READY will to load data
+[ERROR] 04/11/19:02:33:04 PM: startelt at  not exist 20190330-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:02:35:01 PM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/11/19:02:35:01 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:02:44:20 PM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/11/19:02:44:20 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:02:52:40 PM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/11/19:02:52:40 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:03:57:50 PM:
+document: 20190328-EBS-REPORT
+***********************
+[ERROR] 04/11/19:03:57:50 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/11/19:03:58:49 PM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/11/19:03:58:49 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/12/19:05:04:41 PM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/12/19:05:04:41 PM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT.READY will to load data
+[ERROR] 04/12/19:05:04:41 PM: startelt at  not exist 20190412-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/12/19:05:19:43 PM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/12/19:05:19:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT.READY will to load data
+[ERROR] 04/12/19:05:19:43 PM: startelt at  not exist 20190412-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:10:52:55 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:10:52:55 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:10:52:55 AM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:10:58:33 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:10:58:33 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:10:58:33 AM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:01:02 AM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/15/19:11:01:02 AM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:04:20 AM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:04:20 AM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:11:04:20 AM: startelt at  not exist 20190412-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:04:43 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:04:43 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:11:04:43 AM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:12:19 AM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:12:19 AM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:11:12:19 AM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:16:14 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:16:14 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:11:16:14 AM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:19:10 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:19:10 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:11:19:10 AM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:02:47:11 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:02:47:11 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:02:47:11 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:03:09:11 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:03:09:11 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:03:09:11 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:03:26:24 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:03:26:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/15/19:03:26:24 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/16/19:01:26:00 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/16/19:01:26:00 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/16/19:01:26:00 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/16/19:01:33:46 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/16/19:01:33:46 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/16/19:01:33:46 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:10:15:50 AM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:10:15:50 AM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:10:15:50 AM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:10:17:40 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:10:17:40 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:10:17:40 AM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:10:18:08 AM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/17/19:10:18:08 AM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:10:18:08 AM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:02:28:57 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:02:28:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:02:28:57 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:48:11 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:48:11 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:03:48:11 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:49:27 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:49:27 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:03:49:27 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:52:06 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:52:06 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:03:52:06 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:54:32 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:54:32 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:03:54:32 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:57:24 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:57:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:03:57:24 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:07:06 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:07:06 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:04:07:06 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:17:42 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:17:42 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:04:17:42 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:46:33 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:46:33 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:04:46:33 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:47:34 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:47:34 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:04:47:34 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:36:25 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:36:25 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:36:25 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:36:39 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:36:39 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:36:39 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:37:34 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:37:34 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:37:34 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:38:09 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:38:09 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:38:09 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:38:27 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:38:27 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:38:27 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:39:23 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:39:23 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:39:23 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:39:35 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:39:35 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:39:35 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:40:17 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:40:17 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:40:17 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:40:53 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:40:53 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:40:53 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:42:22 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:42:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:42:22 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:42:58 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:42:58 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:42:58 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:49:24 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:49:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:49:24 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:49:40 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:49:40 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/17/19:05:49:40 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:10:45:06 AM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:10:45:06 AM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:10:45:06 AM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:11:03:39 AM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:11:03:39 AM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:11:03:39 AM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:13 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:13 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:01:58:13 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:22 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:01:58:22 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:34 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:34 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:01:58:34 PM: startelt at  not exist 20190331-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:53 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:53 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:01:58:53 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:03:12 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:03:12 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:03:12 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:06:31 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:06:31 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:06:31 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:06:44 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:06:44 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:06:44 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:06:55 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:06:55 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:06:55 PM: startelt at  not exist 20190331-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:07:00 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:07:00 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:07:00 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:21:02 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:21:02 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:21:02 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:33:43 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:33:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:33:43 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:34:20 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:34:20 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:34:20 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:36:17 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:36:17 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:36:17 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:46:20 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:46:20 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:46:20 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:55:48 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:55:48 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:02:55:48 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:26:55 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:26:55 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:04:26:55 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:38:48 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:38:48 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:04:38:48 PM: startelt at  not exist 20190307-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:47:10 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:47:10 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:04:47:10 PM: startelt at  not exist 20190327-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:47:42 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:47:42 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:04:47:42 PM: startelt at  not exist 20190331-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:47:52 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:47:52 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:04:47:52 PM: startelt at  not exist 20190416-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:54:01 PM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:54:01 PM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT.READY will to load data
+[ERROR] 04/22/19:04:54:01 PM: startelt at  not exist 20190412-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:58:11 PM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/22/19:04:58:11 PM: the document EBS-REPORT-AUD.READY is exist, will exit
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:02:08 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:02:08 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:02:08 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:04:29 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:04:29 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:04:29 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:06:13 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:06:13 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:06:13 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:08:23 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:08:23 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:08:23 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:12:40 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:12:40 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:12:40 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:15:35 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:15:35 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:15:35 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:21:22 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:21:22 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:21:22 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:43:10 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:43:10 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:43:10 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:53:39 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:53:39 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:10:53:39 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:11:24:33 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:11:24:33 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:11:24:33 AM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:04:52:57 PM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:04:52:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT.READY will to load data
+[ERROR] 04/23/19:04:52:57 PM: startelt at  not exist 20190423-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/16/19:04:32:25 PM:
+document: 20190516-EBS-REPORT
+***********************
+[INFO] 05/16/19:04:32:25 PM: the document EBS-REPORT-AUD.READY is not exist 20190516-EBS-REPORT.READY will to load data
+[ERROR] 05/16/19:04:32:25 PM: startelt at  not exist 20190516-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:03:37:57 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:03:37:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:03:37:57 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:03:40:43 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:03:40:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:03:40:43 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:03:52:15 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:03:52:15 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:03:52:15 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:13:31 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:13:31 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:04:13:31 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:16:26 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:16:26 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:04:16:26 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:32:58 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:32:58 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:04:32:58 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:44:52 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:44:52 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:04:44:52 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:50:42 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:50:42 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:04:50:42 PM: startelt at  not exist 20190519-EBS-REPORT.READY
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:05:09:18 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:05:09:18 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT.READY will to load data
+[ERROR] 05/20/19:05:09:18 PM: startelt at  not exist 20190519-EBS-REPORT.READY

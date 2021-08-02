@@ -1,0 +1,374 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:29 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_ASSET_PAWN_INFO.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-AssetPawnInfo.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_ASSET_PAWN_INFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_ASSET_PAWN_INFO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PAWNCODE                            FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNNUM                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNNAME                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MORTGAGECONTRACTCODE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROVINCECODE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CITYNO                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGIONCODE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNTYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OTHERCREDENTIALSNO                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ORIGINALCREDENTIALSNO                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNAMOUNT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNSTATUS                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNAREA                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HOUSEARE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MARKETPRICE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CASHPRICE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CASHRATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUOTEPRICE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUYPRICE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERUSER                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERTIME                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LASTUPDATEUSER                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTUPDATETIME                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DISPOSALYEARS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BALANCECOST                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENTBALANCE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEDUCTIONTEN                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTTIMELOSS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTBALANCE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNDETAIL                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECOVERABLEBALANCE                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISPOSALMONEY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SCHEMEID                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TYPE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PLACE                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+VALUATIONAMOUNT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ESCROWSTATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REMARK                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNREGDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ADDRDETAIL                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNQUANTITY                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNUNIT                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECPMARKETPRICE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECPCASHPRICE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECPCASHRATE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWNTYPEEX                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TEMPCODE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVEST_DATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+INVESTOR                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAND_USEAGE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HOUSE_USEAGE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUILD_AREA                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPLETED_DATE                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+FLOOR_NO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NEAR_STATUS                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+USE_STATUS                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RENT                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRAFFIC_STATUS                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWN_NEAR                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NEAR_ROATYPE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NEAR_FACILITY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPTOWN_AREA                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPTOWN_TYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUILD_TYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTORY_USEAGE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTORY_NEAR                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CLEAN_STATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTORY_AREA                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTORY_TYPE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MATERIAL_TYPE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLOOR_NUM                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DIRECTION                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DECORATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAND_BOUNDARY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLOOR_PRICE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWN_OWNER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWN_BRAND                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAWN_SPEC                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PLATE_TYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PLATE_NO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NEW_RATIO                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REG_NO                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STORAGE_PLACE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUY_PRICE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TOTAL_PRICE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HEALTH_STATUS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONSERVE_STATUS                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MARKET_STATUS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REG_DEPT                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IMPAWN_NO                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WAREHOUSE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGULATOR                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SAFEKEEP_DEPT                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_NO                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WAREHOUSE_NO                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GOODS_HEAP                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SCHOOL_STATUS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AFFOREST                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAND_NATURE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPTOWN_NAME                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTOR_USESTATUS                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTOR_RENT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTOR_FLOORNUM                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTOR_DIRECTION                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FACTOR_DECORATE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BATCH_NO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BORROWER                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BORROWDEPT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COLLATERALSTATUS                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LANDCOLLATERALID                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROCESS_INSTANCEID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONFIRMSTATUS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTTYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUATWAY                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WARNING_LINE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CLOSING_LINE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RISKCONTROL                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDCODE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTOR                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXCHANGETYPE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STOCKCODE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UNLOCKDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENTERPRISENAME                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STORAGEMODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INNERID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STARTDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+BEGINAMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEALDATE                             NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LENDAMOUNT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISINSURANCED                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INSURANCEENDDATE                     NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+INSURANCECOMPANY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INSURANCENO                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INSURANCEBALANCE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INSURANCESITUATION                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENTAMOUNT                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INITAMOUNT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INITVALUE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SHAREAMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SHAREBALANCE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RIGHTSEQUENCE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EVALUATEDATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+EVALUATEORG                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ESTEXPLAIN                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COLLATERALID                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGISTRATIONAUTHORITY                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COLLATERALCODE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGISTRATIONDATE                     NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+VOUCHERENDDATE                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+SERIALNO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONFIRM_USER                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONFIRM_TIME                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COLLATERALAMOUNT                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INTENDEDRETURNDATE                   NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+RETURNDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+KIND                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 6
+
+Table AICS_ASSET_PAWN_INFO:
+  44 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 250776 bytes(6 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            44
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:29 2019
+Run ended on Wed Mar 06 10:03:30 2019
+
+Elapsed time was:     00:00:00.08
+CPU time was:         00:00:00.03

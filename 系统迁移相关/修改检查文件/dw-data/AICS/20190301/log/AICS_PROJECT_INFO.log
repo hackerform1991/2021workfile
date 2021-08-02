@@ -1,0 +1,306 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:31 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_PROJECT_INFO.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-ProjectInfo.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_PROJECT_INFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_PROJECT_INFO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PROJECTCODE                         FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTNAME                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTNATURE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTPHASE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RISKTYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FDCBUSITYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTSTATUS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DPTID                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPCODE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETSELLER                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SERVICEBANK                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MONEYTYPE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREDICTINVESTDATE                    NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+TRUSTMANAGER                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTTEAMMEMBERS                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISPERFECTTURNSTOCK                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DURDILIGENCELAUNCHORG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PSHORGNO                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AMCCUSTOMERNO                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FRAMESIGNEDMONEY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPLYINVESTMONEY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCTTYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINANCINGNAME                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BELONGTOINDUSTRY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPANYNATURE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDITRATING                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISTRADED                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGISTEREDCAPITAL                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOCATEDAREA                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREDEBTRATIO                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AFTERDEBTRATIO                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXTFIELD10                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREDICTINVESTLIMIT                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTINTENTMEMO                     NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+CHANNELCOSTMEMO                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDTRUSTEE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISNEEDDIRECTOR                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISNEEDSUPERVISOR                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DROPTYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DROPDESCRIBE                         NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+PREDICTYIELD                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREDICTYIELDEXPLAIN                  NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+DEBTSUM                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEBTCORPUSAMOUNT                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEBTINTEREST                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPLYOWNINVESTMONEY                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISLEAVEDEBT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LEAVEDEBTMONEY                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LEAVEDEBTDESCRIBE                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTEDCOMPANY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINANCIALPRODUCTTYPE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINANCIALPRODUCTCODE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREBALANCESUM                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TIMELIMIT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISTRIBUTIONMODE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STOCKPREMIUMRATE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INITSTOCKPRICE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PARVALUERATE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REDEEMPRICE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXCHAGNESTOCKBEGINDAY                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+INITPLEDGERATE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ADDITIONALGUARANTEE                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOWREPAIRCLAUSE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REDEMPTIONCLAUSE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RESALECLAUSE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISINTERMECHANISM                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SERVICECONTENTDESCRIBE               NEXT  5000      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTTARGET                         NEXT  5000      O(") CHARACTER            
+    Terminator string : '^*'
+CAPITAL                              NEXT  5000      O(") CHARACTER            
+    Terminator string : '^*'
+FRAMEWORK                            NEXT  5000      O(") CHARACTER            
+    Terminator string : '^*'
+PARTYINFO                            NEXT  5000      O(") CHARACTER            
+    Terminator string : '^*'
+TASSET                               NEXT  5000      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 4
+Record 2: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 3: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 5: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 6: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 8: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 9: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 10: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 11: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 12: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 13: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 14: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 15: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 16: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 17: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 18: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 19: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 20: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 21: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 22: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 23: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 24: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 25: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 26: Rejected - Error on table AICS_PROJECT_INFO, column PREDICTINVESTDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 28: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 30: Rejected - Error on table AICS_PROJECT_INFO, column CHANNELCOSTMEMO.
+Field in data file exceeds maximum length
+Record 31: Rejected - Error on table AICS_PROJECT_INFO, column CHANNELCOSTMEMO.
+Field in data file exceeds maximum length
+Record 33: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 34: Rejected - Error on table AICS_PROJECT_INFO, column FRAMEWORK.
+no terminator found after TERMINATED and ENCLOSED field
+Record 35: Rejected - Error on table AICS_PROJECT_INFO, column CHANNELCOSTMEMO.
+Field in data file exceeds maximum length
+Record 36: Rejected - Error on table AICS_PROJECT_INFO, column CHANNELCOSTMEMO.
+Field in data file exceeds maximum length
+Record 27: Rejected - Error on table AICS_PROJECT_INFO, column EXCHAGNESTOCKBEGINDAY.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 29: Rejected - Error on table AICS_PROJECT_INFO, column PREDICTINVESTDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 37: Rejected - Error on table AICS_PROJECT_INFO, column PREDICTINVESTDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 38: Rejected - Error on table AICS_PROJECT_INFO, column CHANNELCOSTMEMO.
+Field in data file exceeds maximum length
+Record 39: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 40: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 41: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 42: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 43: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 44: Rejected - Error on table AICS_PROJECT_INFO, column FRAMEWORK.
+no terminator found after TERMINATED and ENCLOSED field
+Record 45: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 46: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 47: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 48: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 49: Rejected - Error on table AICS_PROJECT_INFO, column PARTYINFO.
+no terminator found after TERMINATED and ENCLOSED field
+Record 50: Rejected - Error on table AICS_PROJECT_INFO, column CHANNELCOSTMEMO.
+Field in data file exceeds maximum length
+Record 51: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 52: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 53: Rejected - Error on table AICS_PROJECT_INFO, column TASSET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 54: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+Record 55: Rejected - Error on table AICS_PROJECT_INFO, column INVESTTARGET.
+no terminator found after TERMINATED and ENCLOSED field
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table AICS_PROJECT_INFO:
+  4 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 235152 bytes(4 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            55
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:31 2019
+Run ended on Wed Mar 06 10:03:31 2019
+
+Elapsed time was:     00:00:00.18
+CPU time was:         00:00:00.02

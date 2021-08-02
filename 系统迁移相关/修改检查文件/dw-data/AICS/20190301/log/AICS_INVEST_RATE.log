@@ -1,0 +1,106 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_INVEST_RATE.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-InvestRate.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_INVEST_RATE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_RATE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+RATEID                              FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATEKIND                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CALCCYCLE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATETYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+EDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+BEGINSACLE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENDSACLE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BASEKIND                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLOATCOND                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLOATWAY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHANGEKIND                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHANGEFREQ                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHANGEDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LOWRATE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HIGHRATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SETTLEFREQ                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISADVANCE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FIRSTPAYDATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+NEXTBDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+NEXTEDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+NEXTPAYDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 35
+
+Table AICS_INVEST_RATE:
+  344 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 252840 bytes(35 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           344
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:30 2019
+Run ended on Wed Mar 06 10:03:30 2019
+
+Elapsed time was:     00:00:00.07
+CPU time was:         00:00:00.02

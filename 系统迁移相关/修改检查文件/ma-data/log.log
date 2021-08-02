@@ -1,0 +1,138 @@
+oracle 12.2.0 env is set
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 15:54:14 2019 Copyright (c) 1982, 2016, Oracle. All rights reserved. Last Successful login time: Tue Apr 16 2019 15:52:52 +08:00 Connected to: Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production SQL> SQL> Usage: SET COLSEP { " " | text} SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> [thisresultpositionstart]20190430[thisresultpositionend] SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+20190430[thisresultpositionend] SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+20190430
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 15:54:14 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 15:52:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 15:54:14 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 15:54:14 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:03:54:15 PM:
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 15:54:16 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 15:53:41 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> 
+Table truncated.
+
+SQL> TRUNCATE table	MA_BUSINESS_ACCOUNT_INFOR
+                *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+here
+aaaaa
+执行maadmin层存储过程
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 15:54:18 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 15:54:14 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL> BEGIN etl_to_ma_process_pck.ma_total_control; END;
+
+*
+ERROR at line 1:
+ORA-12899: value too large for column
+"MAADMIN"."BD_ACCOUNT_DETAIL"."COUNTER_PTY_ID" (actual: 32, maximum: 15)
+ORA-06512: at "MAADMIN.ETL_TO_MA_PROCESS_PCK", line 341
+ORA-06512: at "MAADMIN.ETL_TO_MA_PROCESS_PCK", line 6
+ORA-06512: at line 1
+
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+执行maadmin层存储过程
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 15:54:18 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 15:54:18 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production

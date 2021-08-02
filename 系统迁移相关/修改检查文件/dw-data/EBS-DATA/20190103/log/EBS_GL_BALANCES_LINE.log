@@ -1,0 +1,90 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 18:25:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_GL_BALANCES_LINE.ctl
+Data File:      /dw-data/EBS-DATA/20190103/csv/20190103_gl_balances_201812.csv
+  Bad File:     /dw-data/EBS-DATA/20190103/bad/EBS_GL_BALANCES_LINE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_GL_BALANCES_LINE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *   ,  O(") CHARACTER            
+LEDGER_ID                            NEXT     *   ,  O(") CHARACTER            
+CODE_COMBINATION_ID                  NEXT     *   ,  O(") CHARACTER            
+CURRENCY_CODE                        NEXT     *   ,  O(") CHARACTER            
+PERIOD_NAME                          NEXT     *   ,  O(") CHARACTER            
+ACTUAL_FLAG                          NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_DATE                     NEXT     *   ,  O(") DATE DD-MM-YY        
+LAST_UPDATED_BY                      NEXT     *   ,  O(") CHARACTER            
+BUDGET_VERSION_ID                    NEXT     *   ,  O(") CHARACTER            
+ENCUMBRANCE_TYPE_ID                  NEXT     *   ,  O(") CHARACTER            
+TRANSLATED_FLAG                      NEXT     *   ,  O(") CHARACTER            
+REVALUATION_STATUS                   NEXT     *   ,  O(") CHARACTER            
+PERIOD_TYPE                          NEXT     *   ,  O(") CHARACTER            
+PERIOD_YEAR                          NEXT     *   ,  O(") CHARACTER            
+PERIOD_NUM                           NEXT     *   ,  O(") CHARACTER            
+PERIOD_NET_DR                        NEXT     *   ,  O(") CHARACTER            
+PERIOD_NET_CR                        NEXT     *   ,  O(") CHARACTER            
+PERIOD_TO_DATE_ADB                   NEXT     *   ,  O(") CHARACTER            
+QUARTER_TO_DATE_DR                   NEXT     *   ,  O(") CHARACTER            
+QUARTER_TO_DATE_CR                   NEXT     *   ,  O(") CHARACTER            
+QUARTER_TO_DATE_ADB                  NEXT     *   ,  O(") CHARACTER            
+YEAR_TO_DATE_ADB                     NEXT     *   ,  O(") CHARACTER            
+PROJECT_TO_DATE_DR                   NEXT     *   ,  O(") CHARACTER            
+PROJECT_TO_DATE_CR                   NEXT     *   ,  O(") CHARACTER            
+PROJECT_TO_DATE_ADB                  NEXT     *   ,  O(") CHARACTER            
+BEGIN_BALANCE_DR                     NEXT     *   ,  O(") CHARACTER            
+BEGIN_BALANCE_CR                     NEXT     *   ,  O(") CHARACTER            
+PERIOD_NET_DR_BEQ                    NEXT     *   ,  O(") CHARACTER            
+PERIOD_NET_CR_BEQ                    NEXT     *   ,  O(") CHARACTER            
+BEGIN_BALANCE_DR_BEQ                 NEXT     *   ,  O(") CHARACTER            
+BEGIN_BALANCE_CR_BEQ                 NEXT     *   ,  O(") CHARACTER            
+TEMPLATE_ID                          NEXT     *   ,  O(") CHARACTER            
+ENCUMBRANCE_DOC_ID                   NEXT     *   ,  O(") CHARACTER            
+ENCUMBRANCE_LINE_NUM                 NEXT     *   ,  O(") CHARACTER            
+QUARTER_TO_DATE_DR_BEQ               NEXT     *   ,  O(") CHARACTER            
+QUARTER_TO_DATE_CR_BEQ               NEXT     *   ,  O(") CHARACTER            
+PROJECT_TO_DATE_DR_BEQ               NEXT     *   ,  O(") CHARACTER            
+PROJECT_TO_DATE_CR_BEQ               NEXT     *   ,  O(") CHARACTER            
+DATA_DATE                            NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 24
+
+Table EBS_GL_BALANCES_LINE:
+  1510 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 247680 bytes(24 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1510
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Jan 15 18:25:12 2019
+Run ended on Tue Jan 15 18:25:13 2019
+
+Elapsed time was:     00:00:00.16
+CPU time was:         00:00:00.04

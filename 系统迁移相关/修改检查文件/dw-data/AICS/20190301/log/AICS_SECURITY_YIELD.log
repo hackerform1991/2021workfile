@@ -1,0 +1,133 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:32 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_SECURITY_YIELD.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-SecurityYield.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_SECURITY_YIELD.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_SECURITY_YIELD, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+DEALNO                              FIRST    32      O(") CHARACTER            
+    Terminator string : '^*'
+SECURITY                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+YIELDTYPE                            NEXT     4      O(") CHARACTER            
+    Terminator string : '^*'
+DEALDATE                             NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PRINAMT                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUANTITY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRICE                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATE                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BASIS                                NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+INTPMTFREQ                           NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+CCY                                  NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+YIELD_AMT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STARTDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENDDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+COSTCENTERTYPE                       NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+COSTCENTER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+AUTO_VERIFY                          NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+STATUS                               NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+POSFLAG                              NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+FEDEALNO                             NEXT    64      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+VERIFYUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+VERIFYTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REVERSALUSER                         NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+REVERSALTIME                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REVERSAL_STATUS                      NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+REVERSAL_REMARK                      NEXT   200      O(") CHARACTER            
+    Terminator string : '^*'
+REJECT_REMARK                        NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+FEE                                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAR_VALUE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACUP_POSTDATE                        NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTCODE                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BR                                   NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+SETTLEMENT_PATH                      NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BUIS_MODULE                          NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT                              NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODTYPE                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+FACEAMOUNT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AUTO_SETTLEMENT                      NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+MARKETISSUE                          NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 51
+
+Table AICS_SECURITY_YIELD:
+  4 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 252960 bytes(51 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             4
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:32 2019
+Run ended on Wed Mar 06 10:03:32 2019
+
+Elapsed time was:     00:00:00.06
+CPU time was:         00:00:00.02

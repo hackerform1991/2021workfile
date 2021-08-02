@@ -1,0 +1,106 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu Jan 17 14:54:55 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_FND_FLEX_VALUE_SETS.ctl
+Data File:      /dw-data/EBS-DATA/20190116/csv/20190116_fnd_flex_value_sets_201901.csv
+  Bad File:     /dw-data/EBS-DATA/20190116/bad/EBS_FND_FLEX_VALUE_SETS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_FND_FLEX_VALUE_SETS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLEX_VALUE_SET_ID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLEX_VALUE_SET_NAME                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_DATE                     NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+LAST_UPDATED_BY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATION_DATE                        NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+CREATED_BY                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_LOGIN                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+VALIDATION_TYPE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROTECTED_FLAG                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SECURITY_ENABLED_FLAG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LONGLIST_FLAG                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FORMAT_TYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MAXIMUM_SIZE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ALPHANUMERIC_ALLOWED_FLAG            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPPERCASE_ONLY_FLAG                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NUMERIC_MODE_ENABLED_FLAG            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DESCRIPTION                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPENDANT_DEFAULT_VALUE              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPENDANT_DEFAULT_MEANING            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PARENT_FLEX_VALUE_SET_ID             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MINIMUM_VALUE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MAXIMUM_VALUE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NUMBER_PRECISION                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZD_EDITION_NAME                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZD_SYNC                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATA_DATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 35
+
+Table EBS_FND_FLEX_VALUE_SETS:
+  10 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 252840 bytes(35 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            10
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Jan 17 14:54:55 2019
+Run ended on Thu Jan 17 14:54:55 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

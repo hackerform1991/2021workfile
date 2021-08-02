@@ -1,0 +1,128 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:31 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_SECURITY_POSITION_HIS.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-SecurityPositionHis.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_SECURITY_POSITION_HIS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_SECURITY_POSITION_HIS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SECURITY                            FIRST    32      O(") CHARACTER            
+    Terminator string : '^*'
+QUANTITY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AVERAGE_COST                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRINCIPAL                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROFIT                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PURCH_AVG_COST                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PURCH_QUANTITY                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PURCH_AMOUNT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SALE_AVG_COST                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SALE_QUANTITY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SALE_AMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COSTCENTERTYPE                       NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+COSTCENTER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CLOSING_PRICE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MARKETPRICE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+POSTDATE                             NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+TD_INTAMT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PYE_INTAMT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TD_SALEGAIN                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PYE_SALEGAIN                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TD_PROFIT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PYE_PROFIT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CCY                                  NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+YIELD_QUANTITY                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AMORTIZEDAMT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UNAMORTIZEDAMT                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BR                                   NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BUIS_MODULE                          NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT                              NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODTYPE                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+FEEAMT                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINANCE_PRINCIPAL                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROFIT_RATIO                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTRYDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+INSTO                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PYE_YIELD_QUANTITY                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLOATPROFIT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 32
+Record 7: Rejected - Error on table AICS_SECURITY_POSITION_HIS, column PROFIT.
+ORA-01438: value larger than specified precision allowed for this column
+
+
+Table AICS_SECURITY_POSITION_HIS:
+  9 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 255488 bytes(32 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            10
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:31 2019
+Run ended on Wed Mar 06 10:03:31 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

@@ -1,0 +1,83 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:47:10 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_ASSET_LOANACCOUNT.ctl
+Data File:      /dw-data/AICS/20190327/csv/20190327-AssetLoanaccount.csv
+  Bad File:     /dw-data/AICS/20190327/bad/AICS_ASSET_LOANACCOUNT.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_ASSET_LOANACCOUNT, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PROJECTCODE                         FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUBPROJECTCODE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANACCOUNTCODE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INIT_BALANCE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENT_BALANCE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FROZEN_BALANCE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UNFROZEN_BALANCE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENT_ASSETCOST                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MONEYTYPE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+UPDATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPDATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+SQL*Loader-500: Unable to open file (/dw-data/AICS/20190327/csv/20190327-AssetLoanaccount.csv)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: No such file or directory
+SQL*Loader-2026: the load was aborted because SQL Loader cannot continue.
+
+Table AICS_ASSET_LOANACCOUNT:
+  0 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 247680 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             0
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Apr 22 16:47:10 2019
+Run ended on Mon Apr 22 16:47:10 2019
+
+Elapsed time was:     00:00:00.04
+CPU time was:         00:00:00.02

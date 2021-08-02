@@ -1,0 +1,3962 @@
+ 
+ 
+***********************
+start to etl the base data
+time: 04/12/19:05:04:41 PM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/12/19:05:04:41 PM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/12/19:05:19:43 PM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/12/19:05:19:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:10:52:55 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:10:52:55 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:10:58:33 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:10:58:33 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:01:02 AM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/15/19:11:01:02 AM: the document EBS-REPORT-AUD.READY is exist, will will LOAD DATA 
+[INFO] 04/15/19:11:01:02 AM: 20190410-EBS-REPORT-AUD.READY ready to load data 
+[INFO] 04/15/19:11:01:02 AM: 20190410 is created will delete befor tar
+[INFO] 04/15/19:11:01:02 AM: new a folder named 20190410 again
+[INFO] 04/15/19:11:01:02 AM: tar-x the file to 20190410/csv
+[INFO] 04/15/19:11:01:02 AM: tar -xvf start:
+20190410_bssheet_2018-07.csv
+20190410_bssheet_2018-08.csv
+20190410_bssheet_2018-09.csv
+20190410_bssheet_2018-10.csv
+20190410_bssheet_2018-11.csv
+20190410_bssheet_2018-12.csv
+20190410_bssheet_2018-13.csv
+20190410_bssheet_2018-14.csv
+20190410_bssheet_2018-15.csv
+20190410_bssheet_2019-01.csv
+20190410_bssheet_2019-02.csv
+20190410_bssheet_2019-03.csv
+20190410_expdetail_2018-07.csv
+20190410_expdetail_2018-08.csv
+20190410_expdetail_2018-09.csv
+20190410_expdetail_2018-10.csv
+20190410_expdetail_2018-11.csv
+20190410_expdetail_2018-12.csv
+20190410_expdetail_2018-13.csv
+20190410_expdetail_2018-14.csv
+20190410_expdetail_2018-15.csv
+20190410_expdetail_2019-01.csv
+20190410_expdetail_2019-02.csv
+20190410_expdetail_2019-03.csv
+20190410_plsheet_2018-07.csv
+20190410_plsheet_2018-08.csv
+20190410_plsheet_2018-09.csv
+20190410_plsheet_2018-10.csv
+20190410_plsheet_2018-11.csv
+20190410_plsheet_2018-12.csv
+20190410_plsheet_2018-13.csv
+20190410_plsheet_2018-14.csv
+20190410_plsheet_2018-15.csv
+20190410_plsheet_2019-01.csv
+20190410_plsheet_2019-02.csv
+20190410_plsheet_2019-03.csv
+ 
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-07.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-08.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-09.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-10.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-11.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-12.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:02 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-13.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-14.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-15.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2019-01.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2019-02.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2019-03.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-07.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-08.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-09.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-10.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-11.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-12.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-13.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:03 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-14.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-15.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1089
+
+Table EBS_PLSHEET_LINE:
+  1089 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2019-01.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2019-02.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2019-03.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-07.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-08.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-09.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:04 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-10.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:05 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-11.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:05 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-12.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:05 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-13.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:05 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-14.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:05 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-15.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:05 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3162
+
+Table EBS_EXPDETAIL_LINE:
+  3162 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2019-01.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:06 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2019-02.log
+for more information about the load.
+[INFO] 04/15/19:11:01:02 AM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 15 11:01:06 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2019-03.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:04:20 AM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:04:20 AM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:04:43 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:04:43 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:12:19 AM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:12:19 AM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:16:14 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:16:14 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:11:19:10 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:11:19:10 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:02:47:11 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:02:47:11 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:03:09:11 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:03:09:11 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/15/19:03:26:24 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/15/19:03:26:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/16/19:01:26:00 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/16/19:01:26:00 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/16/19:01:33:46 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/16/19:01:33:46 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:10:15:50 AM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:10:15:50 AM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:10:17:40 AM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:10:17:40 AM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:10:18:08 AM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/17/19:10:18:08 AM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:02:28:57 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:02:28:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:48:11 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:48:11 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:49:27 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:49:27 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:52:06 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:52:06 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:54:32 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:54:32 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:03:57:24 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:03:57:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:07:06 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:07:06 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:17:42 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:17:42 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:46:33 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:46:33 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:04:47:34 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:04:47:34 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:36:25 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:36:25 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:36:39 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:36:39 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:37:34 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:37:34 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:38:09 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:38:09 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:38:27 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:38:27 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:39:23 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:39:23 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:39:35 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:39:35 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:40:17 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:40:17 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:40:53 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:40:53 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:42:22 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:42:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:42:58 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:42:58 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:49:24 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:49:24 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/17/19:05:49:40 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/17/19:05:49:40 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:10:45:06 AM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:10:45:06 AM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:11:03:39 AM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:11:03:39 AM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:13 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:13 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:22 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:22 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:34 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:34 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:01:58:53 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:01:58:53 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:03:12 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:03:12 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:06:31 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:06:31 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:06:44 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:06:44 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:06:55 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:06:55 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:07:00 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:07:00 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:21:02 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:21:02 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:33:43 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:33:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:34:20 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:34:20 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:36:17 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:36:17 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:46:20 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:46:20 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:02:55:48 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:02:55:48 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:26:55 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:26:55 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:38:48 PM:
+document: 20190307-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:38:48 PM: the document EBS-REPORT-AUD.READY is not exist 20190307-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:47:10 PM:
+document: 20190327-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:47:10 PM: the document EBS-REPORT-AUD.READY is not exist 20190327-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:47:42 PM:
+document: 20190331-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:47:42 PM: the document EBS-REPORT-AUD.READY is not exist 20190331-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:47:52 PM:
+document: 20190416-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:47:52 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:54:01 PM:
+document: 20190412-EBS-REPORT
+***********************
+[INFO] 04/22/19:04:54:01 PM: the document EBS-REPORT-AUD.READY is not exist 20190412-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/22/19:04:58:11 PM:
+document: 20190410-EBS-REPORT
+***********************
+[ERROR] 04/22/19:04:58:11 PM: the document EBS-REPORT-AUD.READY is exist, will will LOAD DATA 
+[INFO] 04/22/19:04:58:11 PM: 20190410-EBS-REPORT-AUD.READY ready to load data 
+[INFO] 04/22/19:04:58:11 PM: 20190410 is created will delete befor tar
+[INFO] 04/22/19:04:58:11 PM: new a folder named 20190410 again
+[INFO] 04/22/19:04:58:11 PM: tar-x the file to 20190410/csv
+[INFO] 04/22/19:04:58:11 PM: tar -xvf start:
+20190410_bssheet_2018-07.csv
+20190410_bssheet_2018-08.csv
+20190410_bssheet_2018-09.csv
+20190410_bssheet_2018-10.csv
+20190410_bssheet_2018-11.csv
+20190410_bssheet_2018-12.csv
+20190410_bssheet_2018-13.csv
+20190410_bssheet_2018-14.csv
+20190410_bssheet_2018-15.csv
+20190410_bssheet_2019-01.csv
+20190410_bssheet_2019-02.csv
+20190410_bssheet_2019-03.csv
+20190410_expdetail_2018-07.csv
+20190410_expdetail_2018-08.csv
+20190410_expdetail_2018-09.csv
+20190410_expdetail_2018-10.csv
+20190410_expdetail_2018-11.csv
+20190410_expdetail_2018-12.csv
+20190410_expdetail_2018-13.csv
+20190410_expdetail_2018-14.csv
+20190410_expdetail_2018-15.csv
+20190410_expdetail_2019-01.csv
+20190410_expdetail_2019-02.csv
+20190410_expdetail_2019-03.csv
+20190410_plsheet_2018-07.csv
+20190410_plsheet_2018-08.csv
+20190410_plsheet_2018-09.csv
+20190410_plsheet_2018-10.csv
+20190410_plsheet_2018-11.csv
+20190410_plsheet_2018-12.csv
+20190410_plsheet_2018-13.csv
+20190410_plsheet_2018-14.csv
+20190410_plsheet_2018-15.csv
+20190410_plsheet_2019-01.csv
+20190410_plsheet_2019-02.csv
+20190410_plsheet_2019-03.csv
+ 
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-07.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-08.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-09.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-10.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-11.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-12.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-13.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-14.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2018-15.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2019-01.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2019-02.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_BSSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 180
+
+Table EBS_BSSHEET_LINE:
+  180 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_BSSHEET_LINE_2019-03.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:11 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-07.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-08.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-09.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-10.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-11.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-12.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-13.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-14.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2018-15.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1089
+
+Table EBS_PLSHEET_LINE:
+  1089 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2019-01.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2019-02.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_PLSHEET_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 825
+
+Table EBS_PLSHEET_LINE:
+  825 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_PLSHEET_LINE_2019-03.log
+for more information about the load.
+*************end***************
+ 
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:12 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-07.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-08.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-09.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-10.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-11.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-12.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:13 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-13.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-14.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2018-15.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3162
+
+Table EBS_EXPDETAIL_LINE:
+  3162 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2019-01.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2019-02.log
+for more information about the load.
+[INFO] 04/22/19:04:58:11 PM: begin to load table EBS_EXPDETAIL_LINE
+************begin**************
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:58:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Path used:      Conventional
+Commit point reached - logical record count 64
+Commit point reached - logical record count 128
+Commit point reached - logical record count 192
+Commit point reached - logical record count 256
+Commit point reached - logical record count 320
+Commit point reached - logical record count 384
+Commit point reached - logical record count 448
+Commit point reached - logical record count 512
+Commit point reached - logical record count 576
+Commit point reached - logical record count 640
+Commit point reached - logical record count 704
+Commit point reached - logical record count 768
+Commit point reached - logical record count 832
+Commit point reached - logical record count 896
+Commit point reached - logical record count 960
+Commit point reached - logical record count 1024
+Commit point reached - logical record count 1088
+Commit point reached - logical record count 1152
+Commit point reached - logical record count 1216
+Commit point reached - logical record count 1280
+Commit point reached - logical record count 1344
+Commit point reached - logical record count 1408
+Commit point reached - logical record count 1472
+Commit point reached - logical record count 1536
+Commit point reached - logical record count 1600
+Commit point reached - logical record count 1664
+Commit point reached - logical record count 1728
+Commit point reached - logical record count 1792
+Commit point reached - logical record count 1856
+Commit point reached - logical record count 1920
+Commit point reached - logical record count 1984
+Commit point reached - logical record count 2048
+Commit point reached - logical record count 2112
+Commit point reached - logical record count 2176
+Commit point reached - logical record count 2240
+Commit point reached - logical record count 2304
+Commit point reached - logical record count 2368
+Commit point reached - logical record count 2432
+Commit point reached - logical record count 2496
+Commit point reached - logical record count 2560
+Commit point reached - logical record count 2624
+Commit point reached - logical record count 2688
+Commit point reached - logical record count 2752
+Commit point reached - logical record count 2816
+Commit point reached - logical record count 2880
+Commit point reached - logical record count 2944
+Commit point reached - logical record count 3008
+Commit point reached - logical record count 3072
+Commit point reached - logical record count 3136
+Commit point reached - logical record count 3200
+Commit point reached - logical record count 3264
+Commit point reached - logical record count 3328
+Commit point reached - logical record count 3392
+Commit point reached - logical record count 3456
+Commit point reached - logical record count 3520
+Commit point reached - logical record count 3584
+Commit point reached - logical record count 3648
+Commit point reached - logical record count 3712
+Commit point reached - logical record count 3776
+Commit point reached - logical record count 3840
+Commit point reached - logical record count 3904
+Commit point reached - logical record count 3968
+Commit point reached - logical record count 4032
+Commit point reached - logical record count 4096
+Commit point reached - logical record count 4160
+Commit point reached - logical record count 4224
+Commit point reached - logical record count 4288
+Commit point reached - logical record count 4352
+Commit point reached - logical record count 4416
+Commit point reached - logical record count 4480
+Commit point reached - logical record count 4544
+Commit point reached - logical record count 4608
+Commit point reached - logical record count 4650
+
+Table EBS_EXPDETAIL_LINE:
+  4650 Rows successfully loaded.
+
+Check the log file:
+  /dw-data/EBS-REPORT-AUD/20190410/log/EBS_EXPDETAIL_LINE_2019-03.log
+for more information about the load.
+*************end***************
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:02:08 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:02:08 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:04:29 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:04:29 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:06:13 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:06:13 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:08:23 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:08:23 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:12:40 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:12:40 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:15:35 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:15:35 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:21:22 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:21:22 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:43:10 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:43:10 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:10:53:39 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:10:53:39 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:11:24:33 AM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:11:24:33 AM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 04/23/19:04:52:57 PM:
+document: 20190423-EBS-REPORT
+***********************
+[INFO] 04/23/19:04:52:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190423-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/16/19:04:32:25 PM:
+document: 20190516-EBS-REPORT
+***********************
+[INFO] 05/16/19:04:32:25 PM: the document EBS-REPORT-AUD.READY is not exist 20190516-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:03:37:57 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:03:37:57 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:03:40:43 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:03:40:43 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:03:52:15 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:03:52:15 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:13:31 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:13:31 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:16:26 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:16:26 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:32:58 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:32:58 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:44:52 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:44:52 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:04:50:42 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:04:50:42 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT
+ 
+ 
+***********************
+start to etl the base data
+time: 05/20/19:05:09:18 PM:
+document: 20190519-EBS-REPORT
+***********************
+[INFO] 05/20/19:05:09:18 PM: the document EBS-REPORT-AUD.READY is not exist 20190519-EBS-REPORT-AUD.READY will to EXIT

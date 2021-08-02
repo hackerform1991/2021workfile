@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Apr 23 10:13:54 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_CUSTOMERINFO.ctl
+Data File:      /dw-data/AICS/20190416/csv/20190416-Customerinfo.csv
+  Bad File:     /dw-data/AICS/20190416/bad/AICS_CUSTOMERINFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_PLAN, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FUNDACCO                            FIRST    12      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTNAME                             NEXT   160      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTTYPE                             NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+IDENTITYTYPE                         NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+IDENTITYNO                           NEXT    50      O(") CHARACTER            
+    Terminator string : '^*'
+SEX                                  NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+ADDRESS                              NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+MOBILENO                             NEXT    40      O(") CHARACTER            
+    Terminator string : '^*'
+PHONE                                NEXT    25      O(") CHARACTER            
+    Terminator string : '^*'
+EMAIL                                NEXT    40      O(") CHARACTER            
+    Terminator string : '^*'
+RISKGRADE                            NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+APPENDDATE                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+SQL*Loader-466: Column FUNDACCO does not exist in table AICS_INVEST_PLAN.

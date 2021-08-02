@@ -1,0 +1,291 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_INVEST_CONTRACT.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-InvestContract.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_INVEST_CONTRACT.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_CONTRACT, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CONTRACTID                          FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RIVALID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTNO                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTNAME                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SIGNDATE                             NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+BEGDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PRESTOPDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTBALANCE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INDUSTRY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STCOKAMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTRATIO                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISREPURCHASE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REMARK                               NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+REPURCHASER                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXTENDILLUSTRATION2                  NEXT  3000      O(") CHARACTER            
+    Terminator string : '^*'
+STOCK_PRICE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTFUNDNAME                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INTEREST                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STOPINTERESTDAY                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+STARTCOUNTDAY                        NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+DEBTAMOUNT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCRUALTAXRATE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STARTORG                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISCHECKBYCONDITION                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHECKCONDITION                       NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+MAININVESTPART                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISENJOYVOTERIGHT                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSENDHIGHSUP                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETRATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSFEROR                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEALTYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PURCHASEBANLANCE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSFERMONEY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYMENTTYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FXASSETRATE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OTHERREMARK                          NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+PROFITLEVEL                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTPLANTYPE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UNDERDESCR                           NEXT  2000      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 9
+Record 1: Rejected - Error on table AICS_INVEST_CONTRACT, column BEGDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 2: Rejected - Error on table AICS_INVEST_CONTRACT, column BEGDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 3: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 4: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 5: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 7: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 8: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 10: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 11: Rejected - Error on table AICS_INVEST_CONTRACT, column BEGDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 12: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 13: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 14: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 15: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 17: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 18: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 19: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 20: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 22: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 23: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 24: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 25: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 26: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 27: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 28: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 29: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 30: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 31: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 32: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 33: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 34: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 35: Rejected - Error on table AICS_INVEST_CONTRACT, column STARTCOUNTDAY.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 37: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 38: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 39: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 41: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 42: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 43: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 44: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 45: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 46: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 47: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 48: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 50: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 51: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 52: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 53: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 54: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 55: Rejected - Error on table AICS_INVEST_CONTRACT, column BEGDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 58: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 59: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 60: Rejected - Error on table AICS_INVEST_CONTRACT, column SIGNDATE.
+ORA-01830: date format picture ends before converting entire input string
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table AICS_INVEST_CONTRACT:
+  9 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 241326 bytes(9 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            63
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:30 2019
+Run ended on Wed Mar 06 10:03:30 2019
+
+Elapsed time was:     00:00:00.07
+CPU time was:         00:00:00.02

@@ -1,0 +1,130 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu Apr 11 15:57:53 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_GL_BALANCES.ctl
+Data File:      /dw-data/EBS-DATA/20190328/csv/20190328_gl_balances_201903.csv
+  Bad File:     /dw-data/EBS-DATA/20190328/bad/EBS_GL_BALANCES.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_GL_BALANCES, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+LEDGER_ID                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CODE_COMBINATION_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENCY_CODE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_NAME                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACTUAL_FLAG                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_DATE                     NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+LAST_UPDATED_BY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUDGET_VERSION_ID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENCUMBRANCE_TYPE_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSLATED_FLAG                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REVALUATION_STATUS                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_TYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_YEAR                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_NUM                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_NET_DR                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_NET_CR                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_TO_DATE_ADB                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUARTER_TO_DATE_DR                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUARTER_TO_DATE_CR                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUARTER_TO_DATE_ADB                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+YEAR_TO_DATE_ADB                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECT_TO_DATE_DR                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECT_TO_DATE_CR                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECT_TO_DATE_ADB                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BEGIN_BALANCE_DR                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BEGIN_BALANCE_CR                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_NET_DR_BEQ                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_NET_CR_BEQ                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BEGIN_BALANCE_DR_BEQ                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BEGIN_BALANCE_CR_BEQ                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TEMPLATE_ID                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENCUMBRANCE_DOC_ID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENCUMBRANCE_LINE_NUM                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUARTER_TO_DATE_DR_BEQ               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUARTER_TO_DATE_CR_BEQ               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECT_TO_DATE_DR_BEQ               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECT_TO_DATE_CR_BEQ               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATA_DATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 24
+
+Table EBS_GL_BALANCES:
+  5391 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 247680 bytes(24 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          5391
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Apr 11 15:57:53 2019
+Run ended on Thu Apr 11 15:57:54 2019
+
+Elapsed time was:     00:00:00.50
+CPU time was:         00:00:00.12

@@ -1,0 +1,272 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Jan 15 18:25:14 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_AP_SUPPLIERS_LINE.ctl
+Data File:      /dw-data/EBS-DATA/20190103/csv/20190103_ap_suppliers_201812.csv
+  Bad File:     /dw-data/EBS-DATA/20190103/bad/EBS_AP_SUPPLIERS_LINE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_AP_SUPPLIERS_LINE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *   ,  O(") CHARACTER            
+VENDOR_ID                            NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_DATE                     NEXT     *   ,  O(") DATE DD-MM-YY        
+LAST_UPDATED_BY                      NEXT     *   ,  O(") CHARACTER            
+VENDOR_NAME                          NEXT     *   ,  O(") CHARACTER            
+VENDOR_NAME_ALT                      NEXT     *   ,  O(") CHARACTER            
+SEGMENT1                             NEXT     *   ,  O(") CHARACTER            
+SUMMARY_FLAG                         NEXT     *   ,  O(") CHARACTER            
+ENABLED_FLAG                         NEXT     *   ,  O(") CHARACTER            
+SEGMENT2                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT3                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT4                             NEXT     *   ,  O(") CHARACTER            
+SEGMENT5                             NEXT     *   ,  O(") CHARACTER            
+LAST_UPDATE_LOGIN                    NEXT     *   ,  O(") CHARACTER            
+CREATION_DATE                        NEXT     *   ,  O(") DATE DD-MM-YY        
+CREATED_BY                           NEXT     *   ,  O(") CHARACTER            
+EMPLOYEE_ID                          NEXT     *   ,  O(") CHARACTER            
+VENDOR_TYPE_LOOKUP_CODE              NEXT     *   ,  O(") CHARACTER            
+CUSTOMER_NUM                         NEXT     *   ,  O(") CHARACTER            
+ONE_TIME_FLAG                        NEXT     *   ,  O(") CHARACTER            
+PARENT_VENDOR_ID                     NEXT     *   ,  O(") CHARACTER            
+MIN_ORDER_AMOUNT                     NEXT     *   ,  O(") CHARACTER            
+SHIP_TO_LOCATION_ID                  NEXT     *   ,  O(") CHARACTER            
+BILL_TO_LOCATION_ID                  NEXT     *   ,  O(") CHARACTER            
+SHIP_VIA_LOOKUP_CODE                 NEXT     *   ,  O(") CHARACTER            
+FREIGHT_TERMS_LOOKUP_CODE            NEXT     *   ,  O(") CHARACTER            
+FOB_LOOKUP_CODE                      NEXT     *   ,  O(") CHARACTER            
+TERMS_ID                             NEXT     *   ,  O(") CHARACTER            
+SET_OF_BOOKS_ID                      NEXT     *   ,  O(") CHARACTER            
+CREDIT_STATUS_LOOKUP_CODE            NEXT     *   ,  O(") CHARACTER            
+CREDIT_LIMIT                         NEXT     *   ,  O(") CHARACTER            
+ALWAYS_TAKE_DISC_FLAG                NEXT     *   ,  O(") CHARACTER            
+PAY_DATE_BASIS_LOOKUP_CODE           NEXT     *   ,  O(") CHARACTER            
+PAY_GROUP_LOOKUP_CODE                NEXT     *   ,  O(") CHARACTER            
+PAYMENT_PRIORITY                     NEXT     *   ,  O(") CHARACTER            
+INVOICE_CURRENCY_CODE                NEXT     *   ,  O(") CHARACTER            
+PAYMENT_CURRENCY_CODE                NEXT     *   ,  O(") CHARACTER            
+INVOICE_AMOUNT_LIMIT                 NEXT     *   ,  O(") CHARACTER            
+EXCHANGE_DATE_LOOKUP_CODE            NEXT     *   ,  O(") CHARACTER            
+HOLD_ALL_PAYMENTS_FLAG               NEXT     *   ,  O(") CHARACTER            
+HOLD_FUTURE_PAYMENTS_FLAG            NEXT     *   ,  O(") CHARACTER            
+HOLD_REASON                          NEXT     *   ,  O(") CHARACTER            
+DISTRIBUTION_SET_ID                  NEXT     *   ,  O(") CHARACTER            
+ACCTS_PAY_CODE_COMBINATION_ID        NEXT     *   ,  O(") CHARACTER            
+DISC_LOST_CODE_COMBINATION_ID        NEXT     *   ,  O(") CHARACTER            
+DISC_TAKEN_CODE_COMBINATION_ID       NEXT     *   ,  O(") CHARACTER            
+EXPENSE_CODE_COMBINATION_ID          NEXT     *   ,  O(") CHARACTER            
+PREPAY_CODE_COMBINATION_ID           NEXT     *   ,  O(") CHARACTER            
+NUM_1099                             NEXT     *   ,  O(") CHARACTER            
+TYPE_1099                            NEXT     *   ,  O(") CHARACTER            
+WITHHOLDING_STATUS_LOOKUP_CODE       NEXT     *   ,  O(") CHARACTER            
+WITHHOLDING_START_DATE               NEXT     *   ,  O(") DATE DD-MM-YY        
+ORGANIZATION_TYPE_LOOKUP_CODE        NEXT     *   ,  O(") CHARACTER            
+VAT_CODE                             NEXT     *   ,  O(") CHARACTER            
+START_DATE_ACTIVE                    NEXT     *   ,  O(") DATE DD-MM-YY        
+END_DATE_ACTIVE                      NEXT     *   ,  O(") DATE DD-MM-YY        
+MINORITY_GROUP_LOOKUP_CODE           NEXT     *   ,  O(") CHARACTER            
+PAYMENT_METHOD_LOOKUP_CODE           NEXT     *   ,  O(") CHARACTER            
+BANK_ACCOUNT_NAME                    NEXT     *   ,  O(") CHARACTER            
+BANK_ACCOUNT_NUM                     NEXT     *   ,  O(") CHARACTER            
+BANK_NUM                             NEXT     *   ,  O(") CHARACTER            
+BANK_ACCOUNT_TYPE                    NEXT     *   ,  O(") CHARACTER            
+WOMEN_OWNED_FLAG                     NEXT     *   ,  O(") CHARACTER            
+SMALL_BUSINESS_FLAG                  NEXT     *   ,  O(") CHARACTER            
+STANDARD_INDUSTRY_CLASS              NEXT     *   ,  O(") CHARACTER            
+HOLD_FLAG                            NEXT     *   ,  O(") CHARACTER            
+PURCHASING_HOLD_REASON               NEXT     *   ,  O(") CHARACTER            
+HOLD_BY                              NEXT     *   ,  O(") CHARACTER            
+HOLD_DATE                            NEXT     *   ,  O(") DATE DD-MM-YY        
+TERMS_DATE_BASIS                     NEXT     *   ,  O(") CHARACTER            
+PRICE_TOLERANCE                      NEXT     *   ,  O(") CHARACTER            
+INSPECTION_REQUIRED_FLAG             NEXT     *   ,  O(") CHARACTER            
+RECEIPT_REQUIRED_FLAG                NEXT     *   ,  O(") CHARACTER            
+QTY_RCV_TOLERANCE                    NEXT     *   ,  O(") CHARACTER            
+QTY_RCV_EXCEPTION_CODE               NEXT     *   ,  O(") CHARACTER            
+ENFORCE_SHIP_TO_LOCATION_CODE        NEXT     *   ,  O(") CHARACTER            
+DAYS_EARLY_RECEIPT_ALLOWED           NEXT     *   ,  O(") CHARACTER            
+DAYS_LATE_RECEIPT_ALLOWED            NEXT     *   ,  O(") CHARACTER            
+RECEIPT_DAYS_EXCEPTION_CODE          NEXT     *   ,  O(") CHARACTER            
+RECEIVING_ROUTING_ID                 NEXT     *   ,  O(") CHARACTER            
+ALLOW_SUBSTITUTE_RECEIPTS_FLAG       NEXT     *   ,  O(") CHARACTER            
+ALLOW_UNORDERED_RECEIPTS_FLAG        NEXT     *   ,  O(") CHARACTER            
+HOLD_UNMATCHED_INVOICES_FLAG         NEXT     *   ,  O(") CHARACTER            
+EXCLUSIVE_PAYMENT_FLAG               NEXT     *   ,  O(") CHARACTER            
+AP_TAX_ROUNDING_RULE                 NEXT     *   ,  O(") CHARACTER            
+AUTO_TAX_CALC_FLAG                   NEXT     *   ,  O(") CHARACTER            
+AUTO_TAX_CALC_OVERRIDE               NEXT     *   ,  O(") CHARACTER            
+AMOUNT_INCLUDES_TAX_FLAG             NEXT     *   ,  O(") CHARACTER            
+TAX_VERIFICATION_DATE                NEXT     *   ,  O(") DATE DD-MM-YY        
+NAME_CONTROL                         NEXT     *   ,  O(") CHARACTER            
+STATE_REPORTABLE_FLAG                NEXT     *   ,  O(") CHARACTER            
+FEDERAL_REPORTABLE_FLAG              NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE_CATEGORY                   NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE1                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE2                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE3                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE4                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE5                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE6                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE7                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE8                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE9                           NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE10                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE11                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE12                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE13                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE14                          NEXT     *   ,  O(") CHARACTER            
+ATTRIBUTE15                          NEXT     *   ,  O(") CHARACTER            
+REQUEST_ID                           NEXT     *   ,  O(") CHARACTER            
+PROGRAM_APPLICATION_ID               NEXT     *   ,  O(") CHARACTER            
+PROGRAM_ID                           NEXT     *   ,  O(") CHARACTER            
+PROGRAM_UPDATE_DATE                  NEXT     *   ,  O(") DATE DD-MM-YY        
+OFFSET_VAT_CODE                      NEXT     *   ,  O(") CHARACTER            
+VAT_REGISTRATION_NUM                 NEXT     *   ,  O(") CHARACTER            
+AUTO_CALCULATE_INTEREST_FLAG         NEXT     *   ,  O(") CHARACTER            
+VALIDATION_NUMBER                    NEXT     *   ,  O(") CHARACTER            
+EXCLUDE_FREIGHT_FROM_DISCOUNT        NEXT     *   ,  O(") CHARACTER            
+TAX_REPORTING_NAME                   NEXT     *   ,  O(") CHARACTER            
+CHECK_DIGITS                         NEXT     *   ,  O(") CHARACTER            
+BANK_NUMBER                          NEXT     *   ,  O(") CHARACTER            
+ALLOW_AWT_FLAG                       NEXT     *   ,  O(") CHARACTER            
+AWT_GROUP_ID                         NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE1                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE2                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE3                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE4                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE5                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE6                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE7                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE8                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE9                    NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE10                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE11                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE12                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE13                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE14                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE15                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE16                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE17                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE18                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE19                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE20                   NEXT     *   ,  O(") CHARACTER            
+GLOBAL_ATTRIBUTE_CATEGORY            NEXT     *   ,  O(") CHARACTER            
+EDI_TRANSACTION_HANDLING             NEXT     *   ,  O(") CHARACTER            
+EDI_PAYMENT_METHOD                   NEXT     *   ,  O(") CHARACTER            
+EDI_PAYMENT_FORMAT                   NEXT     *   ,  O(") CHARACTER            
+EDI_REMITTANCE_METHOD                NEXT     *   ,  O(") CHARACTER            
+EDI_REMITTANCE_INSTRUCTION           NEXT     *   ,  O(") CHARACTER            
+BANK_CHARGE_BEARER                   NEXT     *   ,  O(") CHARACTER            
+BANK_BRANCH_TYPE                     NEXT     *   ,  O(") CHARACTER            
+MATCH_OPTION                         NEXT     *   ,  O(") CHARACTER            
+FUTURE_DATED_PAYMENT_CCID            NEXT     *   ,  O(") CHARACTER            
+CREATE_DEBIT_MEMO_FLAG               NEXT     *   ,  O(") CHARACTER            
+OFFSET_TAX_FLAG                      NEXT     *   ,  O(") CHARACTER            
+PARTY_ID                             NEXT     *   ,  O(") CHARACTER            
+PARENT_PARTY_ID                      NEXT     *   ,  O(") CHARACTER            
+NI_NUMBER                            NEXT     *   ,  O(") CHARACTER            
+TCA_SYNC_NUM_1099                    NEXT     *   ,  O(") CHARACTER            
+TCA_SYNC_VENDOR_NAME                 NEXT     *   ,  O(") CHARACTER            
+TCA_SYNC_VAT_REG_NUM                 NEXT     *   ,  O(") CHARACTER            
+INDIVIDUAL_1099                      NEXT     *   ,  O(") CHARACTER            
+UNIQUE_TAX_REFERENCE_NUM             NEXT     *   ,  O(") CHARACTER            
+PARTNERSHIP_UTR                      NEXT     *   ,  O(") CHARACTER            
+PARTNERSHIP_NAME                     NEXT     *   ,  O(") CHARACTER            
+CIS_ENABLED_FLAG                     NEXT     *   ,  O(") CHARACTER            
+FIRST_NAME                           NEXT     *   ,  O(") CHARACTER            
+SECOND_NAME                          NEXT     *   ,  O(") CHARACTER            
+LAST_NAME                            NEXT     *   ,  O(") CHARACTER            
+SALUTATION                           NEXT     *   ,  O(") CHARACTER            
+TRADING_NAME                         NEXT     *   ,  O(") CHARACTER            
+WORK_REFERENCE                       NEXT     *   ,  O(") CHARACTER            
+COMPANY_REGISTRATION_NUMBER          NEXT     *   ,  O(") CHARACTER            
+NATIONAL_INSURANCE_NUMBER            NEXT     *   ,  O(") CHARACTER            
+VERIFICATION_NUMBER                  NEXT     *   ,  O(") CHARACTER            
+VERIFICATION_REQUEST_ID              NEXT     *   ,  O(") CHARACTER            
+MATCH_STATUS_FLAG                    NEXT     *   ,  O(") CHARACTER            
+CIS_VERIFICATION_DATE                NEXT     *   ,  O(") DATE DD-MM-YY        
+PAY_AWT_GROUP_ID                     NEXT     *   ,  O(") CHARACTER            
+CIS_PARENT_VENDOR_ID                 NEXT     *   ,  O(") CHARACTER            
+BUS_CLASS_LAST_CERTIFIED_DATE        NEXT     *   ,  O(") DATE DD-MM-YY        
+BUS_CLASS_LAST_CERTIFIED_BY          NEXT     *   ,  O(") CHARACTER            
+DATA_DATE                            NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 5
+Record 1: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 2: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 3: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 10: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 11: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 17: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 20: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 21: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 23: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 25: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 28: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 29: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+Record 33: Rejected - Error on table EBS_AP_SUPPLIERS_LINE, column SEGMENT1.
+ORA-01400: cannot insert NULL into ("SRC_LAYER"."EBS_AP_SUPPLIERS_LINE"."SEGMENT1")
+
+
+Table EBS_AP_SUPPLIERS_LINE:
+  24 Rows successfully loaded.
+  13 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 236070 bytes(5 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            37
+Total logical records rejected:        13
+Total logical records discarded:        0
+
+Run began on Tue Jan 15 18:25:14 2019
+Run ended on Tue Jan 15 18:25:14 2019
+
+Elapsed time was:     00:00:00.09
+CPU time was:         00:00:00.04

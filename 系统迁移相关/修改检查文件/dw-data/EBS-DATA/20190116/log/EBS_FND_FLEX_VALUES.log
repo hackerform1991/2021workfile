@@ -1,0 +1,198 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu Jan 17 14:54:56 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_FND_FLEX_VALUES.ctl
+Data File:      /dw-data/EBS-DATA/20190116/csv/20190116_fnd_flex_values_201901.csv
+  Bad File:     /dw-data/EBS-DATA/20190116/bad/EBS_FND_FLEX_VALUES.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_FND_FLEX_VALUES, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLEX_VALUE_SET_ID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLEX_VALUE_ID                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FLEX_VALUE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_DATE                     NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+LAST_UPDATED_BY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATION_DATE                        NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+CREATED_BY                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_LOGIN                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLED_FLAG                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUMMARY_FLAG                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+START_DATE_ACTIVE                    NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+END_DATE_ACTIVE                      NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+PARENT_FLEX_VALUE_LOW                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PARENT_FLEX_VALUE_HIGH               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STRUCTURED_HIERARCHY_LEVEL           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HIERARCHY_LEVEL                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPILED_VALUE_ATTRIBUTES            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+VALUE_CATEGORY                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE1                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE2                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE3                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE4                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE5                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE6                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE7                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE8                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE9                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE10                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE11                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE12                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE13                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE14                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE15                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE16                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE17                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE18                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE19                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE20                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE21                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE22                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE23                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE24                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE25                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE26                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE27                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE28                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE29                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE30                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE31                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE32                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE33                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE34                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE35                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE36                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE37                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE38                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE39                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE40                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE41                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE42                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE43                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE44                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE45                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE46                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE47                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE48                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE49                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE50                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE_SORT_ORDER                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZD_EDITION_NAME                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ZD_SYNC                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATA_DATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate"
+
+value used for ROWS parameter changed from 64 to 13
+
+Table EBS_FND_FLEX_VALUES:
+  6028 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 248196 bytes(13 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          6028
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Jan 17 14:54:56 2019
+Run ended on Thu Jan 17 14:54:56 2019
+
+Elapsed time was:     00:00:00.93
+CPU time was:         00:00:00.20

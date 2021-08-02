@@ -1,0 +1,127 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_PAYMENT_RECEIPT.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-PaymentReceipt.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_PAYMENT_RECEIPT.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_PAYMENT_RECEIPT, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BR                                  FIRST    32      O(") CHARACTER            
+    Terminator string : '^*'
+DEALNO                               NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+SEQ                                  NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+SUBPROJECT                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+MODULE                               NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+TYPE                                 NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+TYPE2                                NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BUSITYPE                             NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+PAYDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PAYRECIND                            NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+CCY                                  NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+AMOUNT                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTNO                               NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+T_DESC                               NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+REMARK                               NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+STATUS                               NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+PBNKNM                               NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+PACCTNO                              NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+PACCTNM                              NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+PCNAPSCODE                           NEXT    12      O(") CHARACTER            
+    Terminator string : '^*'
+RBNKNM                               NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+RACCTNO                              NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+RACCTNM                              NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+RCNAPSCODE                           NEXT    12      O(") CHARACTER            
+    Terminator string : '^*'
+PROCESS_INSTANCEID                   NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+VERIFYUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+VERIFYTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REVERSALUSER                         NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+REVERSALTIME                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PSETTLEMENT_PATH                     NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+RSETTLEMENT_PATH                     NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PACCTTYPE                            NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+RACCTTYPE                            NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+AUTO_SETTLEMENT                      NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+ENTER_ACCOUNT                        NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 55
+
+Table AICS_PAYMENT_RECEIPT:
+  4 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 251570 bytes(55 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             4
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:30 2019
+Run ended on Wed Mar 06 10:03:31 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

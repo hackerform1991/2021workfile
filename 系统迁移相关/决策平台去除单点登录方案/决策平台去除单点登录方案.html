@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>决策平台去除单点登录方案</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h2 id="%e5%86%b3%e7%ad%96%e5%b9%b3%e5%8f%b0%e5%8e%bb%e9%99%a4%e5%8d%95%e7%82%b9%e7%99%bb%e5%bd%95%e6%96%b9%e6%a1%88">决策平台去除单点登录方案</h2>
+<h4 id="%e8%83%8c%e6%99%af">背景</h4>
+<p>近期我们在测试环境中去除单点登录遇到困难，经过分析后发现问题并进行处理，在此记录处理过程</p>
+<ol>
+<li>步骤1：去除或更新应用目录下对应的web.xml文件
+<blockquote>
+<p>一. 去除直接去除文件夹目录下的<code>WEB-INF</code>下的<code>web.xml</code><br>
+二. 更新目录下的<code>web.xml</code>文件,将类似以下段落去除</p>
+<pre><code class="language-xml"><div><span class="hljs-tag">&lt;<span class="hljs-name">filter</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>Auther<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">filter-class</span>&gt;</span>com.fr.io.FrFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-class</span>&gt;</span>   
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter</span>&gt;</span>   
+<span class="hljs-tag">&lt;<span class="hljs-name">filter-mapping</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>Auther<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/decision/view/report<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>  //拦截report 
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter-mapping</span>&gt;</span> 
+<span class="hljs-tag">&lt;<span class="hljs-name">filter-mapping</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>Auther<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/decision/view/form<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>    //拦截form
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter-mapping</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">filter-mapping</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>Auther<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/decision<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>    //拦截pc平台
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter-mapping</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">filter-mapping</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>Auther<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>   
+   <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/decision/url/mobile<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>  //拦截移动端平台
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter-mapping</span>&gt;</span> 
+</div></code></pre>
+</blockquote>
+</li>
+<li>步骤2. 还原决策报表登录页设置
+<blockquote>
+<p>说明：请查看<code>还原登录页设置.pdf</code>了解更详细信息</p>
+</blockquote>
+<ul>
+<li>
+<p>步骤1：使用finereport工具进行服务器远程连接</p>
+<blockquote>
+<p>说明：请查看<code>切换工作目录.pdf</code>中关于远程服务器中的内容描述连接至远程服务器</p>
+</blockquote>
+</li>
+<li>
+<p>步骤2：配置数据库连接（在<code>还原登录页设置.pdf</code>中有相关描述）</p>
+</li>
+<li>
+<p>步骤3：按照方法说明去修改服务器内置数据库<code>finedb</code>中表<code>FINE_CONF_ENTITY</code>的配置，将以下两个信息删除即可完成还原决策报表登录页面</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">id</th>
+<th style="text-align:left">value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">AppearanceConfig.loginUrl</td>
+<td style="text-align:left">login.jsp</td>
+</tr>
+<tr>
+<td style="text-align:left">AppearanceConfig.loginType</td>
+<td style="text-align:left">1</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li>步骤3. 重启服务器</li>
+</ol>
+
+    </body>
+    </html>

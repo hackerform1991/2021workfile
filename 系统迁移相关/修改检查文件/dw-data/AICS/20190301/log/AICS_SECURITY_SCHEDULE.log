@@ -1,0 +1,119 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:32 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_SECURITY_SCHEDULE.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-SecuritySchedule.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_SECURITY_SCHEDULE.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_SECURITY_SCHEDULE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SCHDID                              FIRST    64      O(") CHARACTER            
+    Terminator string : '^*'
+SECURITY                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+SEQ                                  NEXT    10      O(") CHARACTER            
+    Terminator string : '^*'
+SCHD_TYPE                            NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+PAYDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CASHFLOW                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXDIVDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+INTPAYAMT                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRINPAYAMT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CCY                                  NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+STARTDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENDDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+RATECODE                             NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+EXERCISEDATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+RATEFIXDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+FLOORRATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SPREADRATE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRINAMT                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BASIS                                NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+STEPRATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NOTPRINAMT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NOTPRINPAYAMT                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NOTINTPAYAMT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPDATE_COUNTER                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COSTCENTERTYPE                       NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+COSTCENTER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+FEDEALNO                             NEXT    64      O(") CHARACTER            
+    Terminator string : '^*'
+L_QUANTITY                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FIXRATE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISPROCESSED                          NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+BR                                   NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BUIS_MODULE                          NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT                              NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODTYPE                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 45
+
+Table AICS_SECURITY_SCHEDULE:
+  95 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 251010 bytes(45 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            95
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:32 2019
+Run ended on Wed Mar 06 10:03:32 2019
+
+Elapsed time was:     00:00:00.06
+CPU time was:         00:00:00.02

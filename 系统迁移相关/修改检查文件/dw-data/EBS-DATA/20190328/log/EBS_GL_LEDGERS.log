@@ -1,0 +1,234 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu Apr 11 15:57:53 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_GL_LEDGERS.ctl
+Data File:      /dw-data/EBS-DATA/20190328/csv/20190328_gl_ledgers_201903.csv
+  Bad File:     /dw-data/EBS-DATA/20190328/bad/EBS_GL_LEDGERS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_GL_LEDGERS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+LEDGER_ID                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NAME                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SHORT_NAME                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DESCRIPTION                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LEDGER_CATEGORY_CODE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ALC_LEDGER_TYPE_CODE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OBJECT_TYPE_CODE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LE_LEDGER_TYPE_CODE                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPLETION_STATUS_CODE               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONFIGURATION_ID                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHART_OF_ACCOUNTS_ID                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENCY_CODE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_SET_NAME                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOUNTED_PERIOD_TYPE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FIRST_LEDGER_PERIOD_NAME             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RET_EARN_CODE_COMBINATION_ID         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUSPENSE_ALLOWED_FLAG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ALLOW_INTERCOMPANY_POST_FLAG         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRACK_ROUNDING_IMBALANCE_FLAG        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_AVERAGE_BALANCES_FLAG         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CUM_TRANS_CODE_COMBINATION_ID        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RES_ENCUMB_CODE_COMBINATION_ID       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NET_INCOME_CODE_COMBINATION_ID       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ROUNDING_CODE_COMBINATION_ID         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_BUDGETARY_CONTROL_FLAG        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REQUIRE_BUDGET_JOURNALS_FLAG         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_JE_APPROVAL_FLAG              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_AUTOMATIC_TAX_FLAG            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONSOLIDATION_LEDGER_FLAG            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSLATE_EOD_FLAG                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSLATE_QATD_FLAG                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSLATE_YATD_FLAG                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRANSACTION_CALENDAR_ID              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DAILY_TRANSLATION_RATE_TYPE          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AUTOMATICALLY_CREATED_FLAG           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BAL_SEG_VALUE_OPTION_CODE            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BAL_SEG_COLUMN_NAME                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MGT_SEG_VALUE_OPTION_CODE            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MGT_SEG_COLUMN_NAME                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BAL_SEG_VALUE_SET_ID                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MGT_SEG_VALUE_SET_ID                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IMPLICIT_ACCESS_SET_ID               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CRITERIA_SET_ID                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUTURE_ENTERABLE_PERIODS_LIMIT       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LEDGER_ATTRIBUTES                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IMPLICIT_LEDGER_SET_ID               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LATEST_OPENED_PERIOD_NAME            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LATEST_ENCUMBRANCE_YEAR              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_AVERAGE_RATE_TYPE             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PERIOD_END_RATE_TYPE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUDGET_PERIOD_AVG_RATE_TYPE          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUDGET_PERIOD_END_RATE_TYPE          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_ACCOUNTING_METHOD_CODE           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_ACCOUNTING_METHOD_TYPE           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_DESCRIPTION_LANGUAGE             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_ENTERED_CUR_BAL_SUS_CCID         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_SEQUENCING_FLAG                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_BAL_BY_LEDGER_CURR_FLAG          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_LEDGER_CUR_BAL_SUS_CCID          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_SECONDARY_TRACK_FLAG          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_REVAL_SS_TRACK_FLAG           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_DATE                     NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+LAST_UPDATED_BY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATION_DATE                        NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+CREATED_BY                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_LOGIN                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTEXT                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE1                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE2                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE3                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE4                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE5                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE6                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE7                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE8                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE9                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE10                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE11                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE12                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE13                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE14                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE15                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENABLE_RECONCILIATION_FLAG           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATE_JE_FLAG                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SLA_LEDGER_CASH_BASIS_FLAG           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPLETE_FLAG                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMMITMENT_BUDGET_FLAG               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+NET_CLOSING_BAL_FLAG                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AUTOMATE_SEC_JRNL_REV_FLAG           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATA_DATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 10
+
+Table EBS_GL_LEDGERS:
+  6 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 237360 bytes(10 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:             6
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Apr 11 15:57:53 2019
+Run ended on Thu Apr 11 15:57:53 2019
+
+Elapsed time was:     00:00:00.09
+CPU time was:         00:00:00.02

@@ -1,0 +1,226 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:29 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_ASSET_LOANACCOUNT_INFO.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-AssetLoanAccountInfo.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_ASSET_LOANACCOUNT_INFO.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_ASSET_LOANACCOUNT_INFO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+LOANACCOUNTCODE                     FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANACCOUNTNUM                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANACCOUNTNAME                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANSTATUS                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INDUSTRYDETAIL                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROVINCECODE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CITYNO                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGIONCODE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUSINESSCONDITION                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CORPUSAMOUNT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INTEREST                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISBURSEMENTFEE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MINQUOTEDPRICE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MAXQUOTEDPRICE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANACCOUNTCOSTS                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REPLAYRATE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MEMO                                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERUSER                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERTIME                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LASTUPDATEUSER                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTUPDATETIME                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LOANMANAGER                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EVALUATIONUSER                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECLAIMSCALE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENTSCALE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUOTATIONSCALE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISPOSALYEARS                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BALANCECOST                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CURRENTBALANCE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEDUCTIONTEN                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTTIMELOSS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTBALANCE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUALIFICATION                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSOLVENCY                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISPAY                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTAMOUNT                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECOVERABLESCALE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECOVERABLEBALANCEC                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISPOSALMONEY                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTBALANCEALL                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT1                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT2                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT3                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT4                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT5                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT6                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT7                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT8                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT9                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT10                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SETUPDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REPRESENTATIVE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REGISTEMONEY                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUSINESSCOPE                         NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+ADDRESS                              NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RELATIONCODE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OPERTORVALUATIONDATE                 NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+TRANSFERBALANCE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FXASSETRATE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SCHEMEID                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISALLDEAL                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETSOURCE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETSOURCENAME                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT11                           NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+ABSTRACT12                           NEXT  4000      O(") CHARACTER            
+    Terminator string : '^*'
+PREDISPOSALPERIOD                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEFAULTINTEREST                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OTHERFEE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUBCOMPANYRECEIVEDATE                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+SUBCOMPANYRECEIVEMONEY               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LITIGATIONSTATUS                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MINDEALPRICE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERTYPE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROPERTYNATURE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ESCROWSTATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETSELLER                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BASEDAY                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+MARGIN_BALANCE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECPRECOVERABLESCALE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECPRECOVERABLEBALANCE               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSET_CATEGORY                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+IS_CONTINUE_AGENCY                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTINUE_AGENCY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 6
+
+Table AICS_ASSET_LOANACCOUNT_INFO:
+  452 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 226080 bytes(6 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           452
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:29 2019
+Run ended on Wed Mar 06 10:03:29 2019
+
+Elapsed time was:     00:00:00.16
+CPU time was:         00:00:00.04

@@ -1,0 +1,128 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:38:48 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_ASSET_CREDITORCONTRACT.ctl
+Data File:      /dw-data/AICS/20190307/csv/20190307-AssetCreditorContract.csv
+  Bad File:     /dw-data/AICS/20190307/bad/AICS_ASSET_CREDITORCONTRACT.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_ASSET_CREDITORCONTRACT, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CREDITORCONTRACTCODE                FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDITORCONTRACTNUM                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANANO                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANACCOUNTCODE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HEADBANK                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BRANCHBANK                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTSTARTDATE                    NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CONTRACTENDDATE                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CORPUSAMOUNT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INTEREST                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEFAULTINTEREST                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPOUNDINTEREST                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISCALCINTEREST                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTSIGNDATE                     NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ISBANTRANSFER                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAWDEADDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CREDITORCONTRACTPHASE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDITORCONTRACTSTATUS               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTTYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TEMPCODE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERUSER                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ENTERTIME                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LASTUPDATEUSER                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LASTUPDATETIME                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CREDITTYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROPERTYNATURE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ESCROWSTATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTLOANDATE                     NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CONTRACTNUM                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDITORASSETTYPE                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDITORASSETCODE                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDITOR_COST                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 26
+SQL*Loader-500: Unable to open file (/dw-data/AICS/20190307/csv/20190307-AssetCreditorContract.csv)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: No such file or directory
+SQL*Loader-2026: the load was aborted because SQL Loader cannot continue.
+
+Table AICS_ASSET_CREDITORCONTRACT:
+  0 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 248196 bytes(26 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             0
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Apr 22 16:38:48 2019
+Run ended on Mon Apr 22 16:38:48 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

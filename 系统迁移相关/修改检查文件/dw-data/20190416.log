@@ -1,0 +1,420 @@
+oracle 12.2.0 env is set
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:46 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:26:05 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+oracle 12.2.0 env is set
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:46 2019 Copyright (c) 1982, 2016, Oracle. All rights reserved. Last Successful login time: Tue Apr 16 2019 13:33:46 +08:00 Connected to: Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production SQL> SQL> Usage: SET COLSEP { " " | text} SQL> SQL> SQL> SQL> SQL> SQL> SQL> SQL> [thisresultpositionstart]20190416[thisresultpositionend] SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+20190416[thisresultpositionend] SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+20190416
+执行时间20190416
+执行src层数据抽取
+开始执行ebsreport
+strat to load data for csv document
+date is  20190416
+20190416-EBS-REPORT.READY will be used for etl
+NOW: 04/16/19:01:33:46 PM:
+04/16/19:01:33:46 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT.READY will to load data 
+04/16/19:01:33:46 PM: the ready document is not exist ,please check whether the file is ready 
+开始执行ebsreportaud
+strat to load data for csv document
+date is  20190416
+20190416-EBS-REPORT-AUD.READY will be used for etl
+NOW: 04/16/19:01:33:46 PM:
+04/16/19:01:33:46 PM: the document EBS-REPORT-AUD.READY is not exist 20190416-EBS-REPORT-AUD.READY will to EXIT 
+开始执行ebsdata
+strat to load data for csv document
+date is  20190416
+20190416-EBS-DATA.READY will be used for etl
+NOW: 04/16/19:01:33:46 PM:
+04/16/19:01:33:46 PM: the ready document is not exist ,please check whether the file is ready 
+开始执行aics
+strat to load data for csv document
+date is  20190416
+20190416-READY will be used for etl
+NOW: 04/16/19:01:33:46 PM:
+04/16/19:01:33:46 PM: 20190416-READY ready to load data 
+04/16/19:01:33:46 PM: 20190416 folder is not exist , will create the folder after
+04/16/19:01:33:46 PM: tar-x to the folder named 20190416
+04/16/19:01:33:46 PM: begin to load table AICS_ACCOUNT_BANKINFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:46 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:46 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_CREDITOR_RELATION
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:46 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:46 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_CREDITORCONTRACT
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:46 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:46 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_GUARANTEECONTRACT
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:46 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_LOANACCOUNT
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_LOANACCOUNT_INFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_MORTGAGECONTRACT
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_ASSET_PAWN_INFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_CUSTOMERINFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_EQUITY_ASSETS_INFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_INVEST_CONTRACT
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:47 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_INVEST_RATE
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:48 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:47 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_PROJECT_INFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:48 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:48 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_CREDITOR_VARY_RELATION
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:48 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:48 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_INVEST_FUNDVARY
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:49 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_INVEST_PROFITDETAIL
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:49 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_REPAY_CONFIRM
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:49 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_REPAY_CONFIRM_DETAIL
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:49 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+04/16/19:01:33:46 PM: begin to load table AICS_REPAY_INFO
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:49 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> SQL>   2    3    4    5    6    7    8    9   10   11  
+1 row created.
+
+SQL> 
+Commit complete.
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+执行std层存储过程
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:49 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+setdate+1
+
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Apr 16 13:33:53 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Apr 16 2019 13:33:49 +08:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+SQL> SQL> 
+PL/SQL procedure successfully completed.
+
+SQL> SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production

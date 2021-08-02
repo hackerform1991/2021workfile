@@ -1,0 +1,462 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Thu Jan 17 14:54:57 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/EBS-DATA/control/EBS_AP_INVOICE_LINES_ALL.ctl
+Data File:      /dw-data/EBS-DATA/20190116/csv/20190116_ap_invoice_lines_all_201901.csv
+  Bad File:     /dw-data/EBS-DATA/20190116/bad/EBS_AP_INVOICE_LINES_ALL.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EBS_AP_INVOICE_LINES_ALL, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+REPORT_ID                           FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVOICE_ID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_NUMBER                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_TYPE_LOOKUP_CODE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REQUESTER_ID                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DESCRIPTION                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_SOURCE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ORG_ID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_GROUP_NUMBER                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVENTORY_ITEM_ID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ITEM_DESCRIPTION                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SERIAL_NUMBER                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MANUFACTURER                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MODEL_NUMBER                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WARRANTY_NUMBER                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GENERATE_DISTS                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MATCH_TYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISTRIBUTION_SET_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOUNT_SEGMENT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BALANCING_SEGMENT                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COST_CENTER_SEGMENT                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OVERLAY_DIST_CODE_CONCAT             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEFAULT_DIST_CCID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRORATE_ACROSS_ALL_ITEMS             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOUNTING_DATE                      NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+PERIOD_NAME                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEFERRED_ACCTG_FLAG                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEF_ACCTG_START_DATE                 NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+DEF_ACCTG_END_DATE                   NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+DEF_ACCTG_NUMBER_OF_PERIODS          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEF_ACCTG_PERIOD_TYPE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SET_OF_BOOKS_ID                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AMOUNT                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BASE_AMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ROUNDING_AMT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+QUANTITY_INVOICED                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UNIT_MEAS_LOOKUP_CODE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UNIT_PRICE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WFAPPROVAL_STATUS                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+USSGL_TRANSACTION_CODE               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISCARDED_FLAG                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ORIGINAL_AMOUNT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ORIGINAL_BASE_AMOUNT                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ORIGINAL_ROUNDING_AMT                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CANCELLED_FLAG                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INCOME_TAX_REGION                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TYPE_1099                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STAT_AMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREPAY_INVOICE_ID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREPAY_LINE_NUMBER                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVOICE_INCLUDES_PREPAY_FLAG         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CORRECTED_INV_ID                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CORRECTED_LINE_NUMBER                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PO_HEADER_ID                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PO_LINE_ID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PO_RELEASE_ID                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PO_LINE_LOCATION_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PO_DISTRIBUTION_ID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RCV_TRANSACTION_ID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FINAL_MATCH_FLAG                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETS_TRACKING_FLAG                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSET_BOOK_TYPE_CODE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSET_CATEGORY_ID                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECT_ID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TASK_ID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXPENDITURE_TYPE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXPENDITURE_ITEM_DATE                NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+EXPENDITURE_ORGANIZATION_ID          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PA_QUANTITY                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PA_CC_AR_INVOICE_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PA_CC_AR_INVOICE_LINE_NUM            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PA_CC_PROCESSED_CODE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AWARD_ID                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AWT_GROUP_ID                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_1                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_2                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_VERIFIED_FLAG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_REQUIRED_FLAG                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_MISSING_FLAG                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+JUSTIFICATION                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXPENSE_GROUP                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+START_EXPENSE_DATE                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+END_EXPENSE_DATE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_CURRENCY_CODE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_CONVERSION_RATE              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RECEIPT_CURRENCY_AMOUNT              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DAILY_AMOUNT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+WEB_PARAMETER_ID                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ADJUSTMENT_REASON                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MERCHANT_DOCUMENT_NUMBER             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MERCHANT_NAME                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MERCHANT_REFERENCE                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MERCHANT_TAX_REG_NUMBER              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MERCHANT_TAXPAYER_ID                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COUNTRY_OF_SUPPLY                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREDIT_CARD_TRX_ID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COMPANY_PREPAID_INVOICE_ID           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CC_REVERSAL_FLAG                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATION_DATE                        NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+CREATED_BY                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATED_BY                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LAST_UPDATE_DATE                     NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+LAST_UPDATE_LOGIN                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROGRAM_APPLICATION_ID               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROGRAM_ID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROGRAM_UPDATE_DATE                  NEXT     *      O(") DATE DD-MM-YY        
+    Terminator string : '^*'
+REQUEST_ID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE_CATEGORY                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE1                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE2                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE3                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE4                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE5                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE6                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE7                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE8                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE9                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE10                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE11                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE12                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE13                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE14                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ATTRIBUTE15                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE_CATEGORY            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE1                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE2                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE3                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE4                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE5                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE6                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE7                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE8                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE9                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE10                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE11                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE12                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE13                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE14                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE15                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE16                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE17                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE18                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE19                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+GLOBAL_ATTRIBUTE20                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_SELECTED_FOR_APPL_FLAG          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREPAY_APPL_REQUEST_ID               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+APPLICATION_ID                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT_TABLE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_KEY1                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_KEY2                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_KEY3                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_KEY4                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REFERENCE_KEY5                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PURCHASING_CATEGORY_ID               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+COST_FACTOR_ID                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTROL_AMOUNT                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSESSABLE_VALUE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TOTAL_REC_TAX_AMOUNT                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TOTAL_NREC_TAX_AMOUNT                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TOTAL_REC_TAX_AMT_FUNCL_CURR         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TOTAL_NREC_TAX_AMT_FUNCL_CURR        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INCLUDED_TAX_AMOUNT                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRIMARY_INTENDED_USE                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_ALREADY_CALCULATED_FLAG          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SHIP_TO_LOCATION_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT_TYPE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT_CATEGORY                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT_FISC_CLASSIFICATION          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+USER_DEFINED_FISC_CLASS              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TRX_BUSINESS_CATEGORY                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUMMARY_TAX_LINE_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_REGIME_CODE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX                                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_JURISDICTION_CODE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_STATUS_CODE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_RATE_ID                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_RATE_CODE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_RATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_CODE_ID                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+HISTORICAL_FLAG                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TAX_CLASSIFICATION_CODE              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE_APPLICATION_ID                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE_EVENT_CLASS_CODE              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE_ENTITY_CODE                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE_TRX_ID                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE_LINE_ID                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE_TRX_LEVEL_TYPE                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RETAINED_AMOUNT                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RETAINED_AMOUNT_REMAINING            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RETAINED_INVOICE_ID                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RETAINED_LINE_NUMBER                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_SELECTED_FOR_RELEASE_FLAG       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LINE_OWNER_ROLE                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DISPUTABLE_FLAG                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RCV_SHIPMENT_LINE_ID                 NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_INVOICE_ID                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_DISTRIBUTION_LINE_NUMBER         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_INVOICE_ID2                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_DISTRIBUTION_LINE_NUMBER2        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_INVOICE_ID3                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_DISTRIBUTION_LINE_NUMBER3        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AIL_INVOICE_ID4                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAY_AWT_GROUP_ID                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MERCHANT_NAME#1                      NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATA_DATE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 4
+
+Table EBS_AP_INVOICE_LINES_ALL:
+  28 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 212592 bytes(4 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            28
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Jan 17 14:54:57 2019
+Run ended on Thu Jan 17 14:54:57 2019
+
+Elapsed time was:     00:00:00.10
+CPU time was:         00:00:00.04

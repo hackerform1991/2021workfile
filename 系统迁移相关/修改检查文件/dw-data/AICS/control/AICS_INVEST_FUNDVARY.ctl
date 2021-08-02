@@ -1,0 +1,60 @@
+OPTIONS (skip=0)
+LOAD DATA
+INFILE "/dw-data/AICS/20190423/csv/20190423-InvestFundVary.csv"
+truncate
+INTO TABLE AICS_INVEST_FUNDVARY
+fields terminated by "^*"
+Optionally enclosed by '"'
+trailing nullcols
+(
+  ijourid             ,
+  batchid             ,
+  preoccurdate        DATE"YYYY-MM-DD HH24:MI:SS" ,
+  occurdate           DATE"YYYY-MM-DD HH24:MI:SS" ,
+  projectcode         ,
+  subprojectcode      ,
+  investcode          ,
+  contractid          ,
+  assetid             ,
+  fundacid            ,
+  rivalid             ,
+  accoid              ,
+  cykind              ,
+  busiflag            ,
+  investtype          ,
+  investway           ,
+  funddir             ,
+  stockdir            ,
+  repayway            ,
+  extflag             ,
+  preoccur_balance    ,
+  principal           ,
+  begindate           DATE"YYYY-MM-DD HH24:MI:SS" ,
+  enddate             DATE"YYYY-MM-DD HH24:MI:SS" ,
+  profit              ,
+  deduction           ,
+  occur_balance       ,
+  payway              ,
+  isinvalid           ,
+  remark              ,
+  checkflag           ,
+  cretaway            ,
+  createtime          DATE"YYYY-MM-DD HH24:MI:SS" ,
+  createuser          ,
+  updatetime          DATE"YYYY-MM-DD HH24:MI:SS" ,
+  updateuser          ,
+  stcokamount         ,
+  investratio         ,
+  instanceid          ,
+  delaydays           ,
+  paymenaccount       ,
+  deposittype         ,
+  deposittransfertype ,
+  process_instanceid  ,
+  stockamount         ,
+  postflag            ,
+  realinvestdate      DATE"YYYY-MM-DD HH24:MI:SS" ,
+  equityratio         ,
+datadate  "(select data_date from etl_control.ctl_general_parameter)",
+etl_date "sysdate "
+)

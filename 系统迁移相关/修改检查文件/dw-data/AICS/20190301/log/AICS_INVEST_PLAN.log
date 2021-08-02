@@ -1,0 +1,114 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_INVEST_PLAN.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-InvestPlan.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_INVEST_PLAN.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_PLAN, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PLANID                              FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+PDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+STATE                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATAFLAG                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATE_DATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CREATER                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPDATE_DATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+UPDATER                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EQUITYPLANKIND                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EQUITYASSETNO                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REVIEWSTATUS                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+EDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+TOTAL_AMOUNT                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PLANTYPE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REPAYWAY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PCAPITAL                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDACID                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RIVALID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PINCOME                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MCAPITAL                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+MINCOME                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISRECREATE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+LOANBALANCE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTSTATE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REPAYMENTTYPE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 31
+
+Table AICS_INVEST_PLAN:
+  52 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 255936 bytes(31 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            52
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:30 2019
+Run ended on Wed Mar 06 10:03:30 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

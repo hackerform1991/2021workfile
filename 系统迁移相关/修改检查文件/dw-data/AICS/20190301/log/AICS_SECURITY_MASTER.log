@@ -1,0 +1,187 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:31 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_SECURITY_MASTER.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-SecurityMaster.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_SECURITY_MASTER.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_SECURITY_MASTER, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SECURITY                            FIRST    32      O(") CHARACTER            
+    Terminator string : '^*'
+NAME                                 NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+TYPE                                 NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CCY                                  NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+PAR_VALUE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRICE                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+VDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+MDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+RATECODE                             NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+FIXRATE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISSUER                               NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+MASTER_DESC                          NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+STATUS                               NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LSTMNTUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+LSTMNTTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+FENO                                 NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+ISUSE                                NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+INTSECID                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+MARKETISSUE                          NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CUSTODIAN                            NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BASIS                                NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+FIRSTINTPAYDATE                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+INTPMTFREQ                           NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+INTPAYRULE                           NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+FIRSTPRINPAYDAY                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PRINPMTFREQ                          NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+SETTDAYS                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SIC                                  NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+SECTYPE                              NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+GUARANTEE                            NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CONVERSION_STAR                      NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CONVERSION_END                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CALLDATE                             NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CALLPRICE                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CALL_DESC                            NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+PUTBACKDATE                          NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PUTBACKPRICE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PUTBACK_DESC                         NEXT   300      O(") CHARACTER            
+    Terminator string : '^*'
+LINKSECID                            NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+LISTEDSECTOR                         NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+RATEADJUSTDATE                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CATEGORY                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+FUND_MANAGER                         NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+TRUSTEE                              NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRINPMT_TYPE                         NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+FULLNAME                             NEXT   200      O(") CHARACTER            
+    Terminator string : '^*'
+SOURCE                               NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+VERIFYUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+VERIFYTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+AUTO_VERIFY                          NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+REJECT_REMARK                        NEXT   255      O(") CHARACTER            
+    Terminator string : '^*'
+DOMESTIC                             NEXT     3      O(") CHARACTER            
+    Terminator string : '^*'
+TOTALISSUE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+A_TOTALSHARE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+A_TOTALFLOATSHARE                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+H_TOTALSHARE                         NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+H_TOTALFLOATSHARE                    NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+AREA                                 NEXT    50      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+REJECTTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PUBPVT                               NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+NAME_ALLFIRSTLETTER                  NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+INDUSTRYWIND                         NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+MKT_SECURITY                         NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRICE_CLIENT_CODE                    NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 27
+
+Table AICS_SECURITY_MASTER:
+  2 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 249156 bytes(27 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             2
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:31 2019
+Run ended on Wed Mar 06 10:03:31 2019
+
+Elapsed time was:     00:00:00.06
+CPU time was:         00:00:00.02

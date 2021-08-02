@@ -1,0 +1,21 @@
+Start time: Fri Apr 17 04:00:01 CST 2020
+
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Apr 17 04:00:01 2020
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+ERROR:
+ORA-01017: invalid username/password; logon denied
+
+
+Enter user-name: Enter password: 
+ERROR:
+ORA-01005: null password given; logon denied
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM|SYSBACKUP|SYSDG|SYSKM|SYSRAC}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+SP2-0157: unable to CONNECT to ORACLE after 3 attempts, exiting SQL*Plus
+End time: Fri Apr 17 04:00:03 CST 2020

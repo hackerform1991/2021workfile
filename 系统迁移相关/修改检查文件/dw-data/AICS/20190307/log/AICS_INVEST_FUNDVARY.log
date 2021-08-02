@@ -1,0 +1,150 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Mon Apr 22 16:38:50 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_INVEST_FUNDVARY.ctl
+Data File:      /dw-data/AICS/20190307/csv/20190307-InvestFundVary.csv
+  Bad File:     /dw-data/AICS/20190307/bad/AICS_INVEST_FUNDVARY.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_INVEST_FUNDVARY, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+IJOURID                             FIRST     *      O(") CHARACTER            
+    Terminator string : '^*'
+BATCHID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREOCCURDATE                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+OCCURDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PROJECTCODE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+SUBPROJECTCODE                       NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTCODE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CONTRACTID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ASSETID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDACID                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RIVALID                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ACCOID                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CYKIND                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BUSIFLAG                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTTYPE                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTWAY                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+FUNDDIR                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STOCKDIR                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REPAYWAY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+EXTFLAG                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PREOCCUR_BALANCE                     NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PRINCIPAL                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BEGINDATE                            NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+ENDDATE                              NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+PROFIT                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEDUCTION                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+OCCUR_BALANCE                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYWAY                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+ISINVALID                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REMARK                               NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CHECKFLAG                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CRETAWAY                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CREATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+UPDATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+UPDATEUSER                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STCOKAMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INVESTRATIO                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INSTANCEID                           NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DELAYDAYS                            NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PAYMENACCOUNT                        NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPOSITTYPE                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DEPOSITTRANSFERTYPE                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+PROCESS_INSTANCEID                   NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+STOCKAMOUNT                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+POSTFLAG                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+REALINVESTDATE                       NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+EQUITYRATIO                          NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+ETL_DATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "sysdate "
+
+value used for ROWS parameter changed from 64 to 19
+
+Table AICS_INVEST_FUNDVARY:
+  5 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 245100 bytes(19 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             5
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Apr 22 16:38:50 2019
+Run ended on Mon Apr 22 16:38:50 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02

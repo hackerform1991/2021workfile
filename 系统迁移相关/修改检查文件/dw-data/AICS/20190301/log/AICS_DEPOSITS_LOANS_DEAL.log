@@ -1,0 +1,121 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Mar 6 10:03:30 2019
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /dw-data/AICS/control/AICS_DEPOSITS_LOANS_DEAL.ctl
+Data File:      /dw-data/AICS/20190301/csv/20190301-DepositsLoansDeal.csv
+  Bad File:     /dw-data/AICS/20190301/bad/AICS_DEPOSITS_LOANS_DEAL.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table AICS_DEPOSITS_LOANS_DEAL, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+BR                                  FIRST     8      O(") CHARACTER            
+    Terminator string : '^*'
+DEALNO                               NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+BUIS_MODULE                          NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+COST                                 NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODUCT                              NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+PRODTYPE                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+DL_PS                                NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+DEALDATE                             NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+VDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+TENOR                                NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+TENOR_UNIT                           NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+MDATE                                NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+CUST                                 NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CUST_ACCT                            NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CCY                                  NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+AMT                                  NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+RATECODE                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+INTRATE                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+INT_AMT                              NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+BASIS                                NEXT     8      O(") CHARACTER            
+    Terminator string : '^*'
+ACRFRSTLST                           NEXT     1      O(") CHARACTER            
+    Terminator string : '^*'
+DEALTEXT                             NEXT  1000      O(") CHARACTER            
+    Terminator string : '^*'
+STATUS                               NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+REVERSAL_STATUS                      NEXT     2      O(") CHARACTER            
+    Terminator string : '^*'
+TRAD                                 NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CREATEUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+CREATETIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REVIEWUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+REVIEWTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+REVERSALUSER                         NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+REVERSALTIME                         NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+LSTMNTUSER                           NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+LSTMNTTIME                           NEXT     *      O(") DATE YYYY-MM-DD HH24:MI:SS
+    Terminator string : '^*'
+FEDEALNO                             NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+SETTLEMENT_PATH                      NEXT    32      O(") CHARACTER            
+    Terminator string : '^*'
+DATADATE                             NEXT     *      O(") CHARACTER            
+    Terminator string : '^*'
+    SQL string for column : "(select data_date from etl_control.ctl_general_parameter)"
+
+value used for ROWS parameter changed from 64 to 54
+
+Table AICS_DEPOSITS_LOANS_DEAL:
+  4 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 252828 bytes(54 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             4
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Mar 06 10:03:30 2019
+Run ended on Wed Mar 06 10:03:30 2019
+
+Elapsed time was:     00:00:00.05
+CPU time was:         00:00:00.02
